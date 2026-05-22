@@ -1,0 +1,30 @@
+<header class="header">
+    <nav class="nav" aria-label="Main navigation">
+        <div class="logo">
+            {{- $labelText := site.Params.label.text | default site.Title }}
+            <a href="{{ "" | relLangURL }}" accesskey="h" title="{{ $labelText }} (Alt + H)">
+                {{- $labelText -}}
+            </a>
+        </div>
+
+        {{- with site.Menus.main }}
+        <ul id="menu">
+            {{- $currentPage := $ }}
+            {{- range . }}
+            {{- $isActive := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+            {{- $menuURL := .URL | relLangURL }}
+            {{- if eq $menuURL $currentPage.RelPermalink }}
+                {{- $isActive = true }}
+            {{- end }}
+            <li>
+                <a href="{{ .URL | relLangURL }}" title="{{ .Title | default .Name }}"{{ if $isActive }} aria-current="page"{{ end }}>
+                    <span{{ if $isActive }} class="active"{{ end }}>
+                        {{- .Name -}}
+                    </span>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+        {{- end }}
+    </nav>
+</header>

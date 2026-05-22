@@ -1,0 +1,152 @@
+{{ define "main" }}
+<div class="galkynys-home">
+    <section class="home-hero" aria-labelledby="hero-title">
+        <div class="hero-background" aria-hidden="true">
+            <div class="route route-a"></div>
+            <div class="route route-b"></div>
+            <div class="route route-c"></div>
+        </div>
+        <div class="hero-content">
+            <p class="section-kicker">Import and distribution in Turkmenistan</p>
+            <h1 id="hero-title">Galkynys</h1>
+            <p class="hero-lead">Your gateway to the Turkmenistan market. We help international brands enter, distribute, and grow through reliable import, logistics, and local commercial partnerships.</p>
+            <div class="hero-actions" aria-label="Primary actions">
+                <a class="button button-primary" href="{{ "/contacts/" | relURL }}">Become a Partner</a>
+                <a class="button button-secondary" href="{{ "/for-suppliers/" | relURL }}">Enter Turkmenistan Market</a>
+            </div>
+        </div>
+        <dl class="hero-metrics" aria-label="Company focus areas">
+            <div>
+                <dt>B2B</dt>
+                <dd>Supplier partnerships</dd>
+            </div>
+            <div>
+                <dt>TM</dt>
+                <dd>Local market expertise</dd>
+            </div>
+            <div>
+                <dt>360</dt>
+                <dd>Import to distribution</dd>
+            </div>
+        </dl>
+    </section>
+
+    <section class="home-section split-section" aria-labelledby="about-title">
+        <div>
+            <p class="section-kicker">Company</p>
+            <h2 id="about-title">A local partner for international growth.</h2>
+        </div>
+        <div class="section-copy">
+            <p>Galkynys connects international suppliers with retail, wholesale, and distribution channels across Turkmenistan. The company is positioned to support brands that need practical local knowledge, dependable coordination, and a clear path from market entry to long-term growth.</p>
+            <a class="text-link" href="{{ "/company/" | relURL }}">Learn about Galkynys</a>
+        </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="categories-title">
+        <div class="section-heading">
+            <p class="section-kicker">Categories</p>
+            <h2 id="categories-title">Consumer categories with room to scale.</h2>
+        </div>
+        <div class="card-grid six-grid">
+            <a class="category-card" href="{{ "/categories/" | relURL }}">
+                <span>01</span>
+                <strong>Food & Beverages</strong>
+            </a>
+            <a class="category-card" href="{{ "/categories/" | relURL }}">
+                <span>02</span>
+                <strong>Household Goods</strong>
+            </a>
+            <a class="category-card" href="{{ "/categories/" | relURL }}">
+                <span>03</span>
+                <strong>Personal Care</strong>
+            </a>
+            <a class="category-card" href="{{ "/categories/" | relURL }}">
+                <span>04</span>
+                <strong>Baby & Kids</strong>
+            </a>
+            <a class="category-card" href="{{ "/categories/" | relURL }}">
+                <span>05</span>
+                <strong>Electronics</strong>
+            </a>
+            <a class="category-card" href="{{ "/categories/" | relURL }}">
+                <span>06</span>
+                <strong>Consumer Goods</strong>
+            </a>
+        </div>
+    </section>
+
+    <section class="home-section distribution-band" aria-labelledby="distribution-title">
+        <div class="section-heading">
+            <p class="section-kicker">Distribution</p>
+            <h2 id="distribution-title">From supplier readiness to local channel growth.</h2>
+        </div>
+        <div class="process-row">
+            <div>
+                <span>1</span>
+                <h3>Market Fit</h3>
+                <p>We review product category, positioning, and cooperation model for Turkmenistan.</p>
+            </div>
+            <div>
+                <span>2</span>
+                <h3>Import Setup</h3>
+                <p>We coordinate the operational path for product entry, documents, and logistics.</p>
+            </div>
+            <div>
+                <span>3</span>
+                <h3>Channel Access</h3>
+                <p>We connect suitable products with retail, wholesale, and regional distribution routes.</p>
+            </div>
+            <div>
+                <span>4</span>
+                <h3>Brand Growth</h3>
+                <p>We support long-term partner development and local commercial expansion.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-section split-section" aria-labelledby="suppliers-title">
+        <div>
+            <p class="section-kicker">For Suppliers</p>
+            <h2 id="suppliers-title">A structured entry point into Turkmenistan.</h2>
+        </div>
+        <div class="section-copy">
+            <p>For manufacturers and brand owners, Galkynys acts as a local partner that understands both international supplier expectations and the practical requirements of operating in Turkmenistan.</p>
+            <div class="feature-list">
+                <span>Supplier cooperation</span>
+                <span>Brand launch support</span>
+                <span>Commercial coordination</span>
+                <span>Local market insight</span>
+            </div>
+            <a class="text-link" href="{{ "/for-suppliers/" | relURL }}">See supplier cooperation</a>
+        </div>
+    </section>
+
+    <section class="home-section logistics-section" aria-labelledby="logistics-title">
+        <div class="section-heading">
+            <p class="section-kicker">Logistics</p>
+            <h2 id="logistics-title">Import, warehousing, customs support, and delivery planning.</h2>
+        </div>
+        <div class="logistics-layout">
+            <div class="logistics-panel">
+                <h3>Operational Capabilities</h3>
+                <p>Galkynys supports the operational side of market entry so suppliers can focus on brand growth while local requirements are coordinated clearly.</p>
+            </div>
+            <ul class="capability-list">
+                <li>Import operations coordination</li>
+                <li>Warehousing and inventory flow</li>
+                <li>Customs support and documentation coordination</li>
+                <li>Delivery and fulfillment planning</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="home-section contact-cta" aria-labelledby="contact-title">
+        <div>
+            <p class="section-kicker">Partnership</p>
+            <h2 id="contact-title">Ready to discuss the Turkmenistan market?</h2>
+            <p>Share your company details, product category, and cooperation goals. Galkynys will help identify the right next step.</p>
+        </div>
+        <a class="button button-primary" href="{{ "/contacts/" | relURL }}">Contact Galkynys</a>
+    </section>
+</div>
+{{ end }}

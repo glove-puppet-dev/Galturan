@@ -1,0 +1,9 @@
+public/
+public-dev/
+resources/_gen/
+.idea/
+node_modules/
+hugo_stats.json
+.hugo_build.lock
+.DS_Store
+.vscode/

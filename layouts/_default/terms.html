@@ -1,0 +1,28 @@
+{{- define "main" }}
+<section class="gk-page">
+    <header class="gk-page-hero">
+        {{- partial "breadcrumbs.html" . }}
+        <p class="section-kicker">Index</p>
+        <h1>{{ .Title }}</h1>
+        {{- with .Description }}
+        <p class="gk-page-lead">{{ . | markdownify }}</p>
+        {{- end }}
+    </header>
+
+    <ul class="gk-terms">
+        {{- $type := .Type }}
+        {{- range .Data.Terms.Alphabetical }}
+        {{- $name := .Name }}
+        {{- $count := .Count }}
+        {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+        <li>
+            <a href="{{ .RelPermalink }}">
+                <span>{{ .Name }}</span>
+                <strong>{{ $count }}</strong>
+            </a>
+        </li>
+        {{- end }}
+        {{- end }}
+    </ul>
+</section>
+{{- end }}

@@ -1,0 +1,49 @@
+{{- define "main" }}
+<section class="gk-page">
+    <header class="gk-page-hero">
+        {{- partial "breadcrumbs.html" . }}
+        <p class="section-kicker">{{ .Params.kicker | default "Galkynys" }}</p>
+        <h1>{{ .Title }}</h1>
+        {{- with .Description }}
+        <p class="gk-page-lead">{{ . | markdownify }}</p>
+        {{- end }}
+    </header>
+
+    {{- with .Content }}
+    <div class="gk-content post-content">
+        {{ . }}
+    </div>
+    {{- end }}
+
+    {{- $pages := union .RegularPages .Sections }}
+    {{- if gt (len $pages) 0 }}
+    {{- $paginator := .Paginate $pages }}
+    <div class="gk-child-grid" aria-label="Related pages">
+        {{- range $paginator.Pages }}
+        <article class="gk-resource-card">
+            <p>{{ .Section | default .Kind | humanize }}</p>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{- with .Description }}
+            <span>{{ . }}</span>
+            {{- else }}
+            <span>{{ .Summary | plainify | htmlUnescape }}</span>
+            {{- end }}
+        </article>
+        {{- end }}
+    </div>
+
+    {{- if gt $paginator.TotalPages 1 }}
+    <footer class="page-footer">
+        <nav class="pagination" aria-label="Pagination">
+            {{- if $paginator.HasPrev }}
+            <a class="prev" href="{{ $paginator.Prev.URL | relURL }}">Previous</a>
+            {{- end }}
+            {{- if $paginator.HasNext }}
+            <a class="next" href="{{ $paginator.Next.URL | relURL }}">Next</a>
+            {{- end }}
+        </nav>
+    </footer>
+    {{- end }}
+    {{- end }}
+</section>
+{{- end }}

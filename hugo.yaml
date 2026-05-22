@@ -1,0 +1,67 @@
+baseURL: https://galkynys.com/
+locale: en-us
+defaultContentLanguage: en
+title: Galkynys
+theme: PaperMod
+copyright: Copyright 2026 Galkynys. All rights reserved.
+
+params:
+  env: production
+  description: Galkynys is a Turkmenistan-based import and distribution company helping international brands enter, distribute, and grow across the local market.
+  keywords:
+    - Galkynys
+    - Turkmenistan distribution
+    - import company Turkmenistan
+    - B2B distribution
+    - market entry Turkmenistan
+  defaultTheme: light
+  disableThemeToggle: true
+  disableSpecial1stPost: true
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  hideFooter: false
+  label:
+    text: Galkynys
+  assets:
+    theme_color: "#0f3d3e"
+    msapplication_TileColor: "#0f3d3e"
+
+menus:
+  main:
+    - name: Company
+      pageRef: /company
+      weight: 10
+    - name: Categories
+      pageRef: /categories
+      weight: 20
+    - name: Brands
+      pageRef: /brands
+      weight: 30
+    - name: Distribution
+      pageRef: /distribution
+      weight: 40
+    - name: For Suppliers
+      pageRef: /for-suppliers
+      weight: 50
+    - name: Logistics
+      pageRef: /logistics
+      weight: 60
+    - name: News
+      pageRef: /news
+      weight: 70
+    - name: Contacts
+      pageRef: /contacts
+      weight: 80
+    - name: Become a Partner
+      title: Become a Partner
+      url: /contacts/
+      weight: 90
+
+markup:
+  highlight:
+    noClasses: false
