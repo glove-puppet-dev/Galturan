@@ -1,6 +1,6 @@
-# Galkynys LLC Placeholder Site Content
+# Galkynys LLC Placeholder Site Content — Improved Version
 
-This file contains all human-readable copy used by the current Galkynys LLC placeholder website. It is intended for transfer, reuse, or adaptation in another placeholder site.
+This file contains the improved human-readable copy for the current Galkynys LLC placeholder website. It is prepared for transfer, reuse, or adaptation in a corporate market-entry landing page.
 
 ## Site Metadata
 
@@ -26,7 +26,7 @@ Header aria label: Galkynys LLC
 
 ## SEO Description
 
-Galkynys LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
+Galkynys LLC is a full-cycle market-entry, import, logistics, compliance, distribution, and brand-development partner helping international suppliers enter and grow in Turkmenistan.
 
 ## Hero
 
@@ -40,11 +40,19 @@ Galkynys LLC
 
 Description:
 
-Galkynys LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
+Galkynys LLC helps international manufacturers, suppliers, and brand owners enter, distribute, and grow in Turkmenistan through import operations, compliance support, retail access, procurement channels, and long-term market development.
 
 Status notice:
 
 This website is currently under development.
+
+Primary CTA:
+
+Discuss Partnership
+
+Secondary CTA:
+
+Explore Capabilities
 
 ## Key Company Facts
 
@@ -55,13 +63,13 @@ Key company facts
 Facts:
 
 - 250+ - Retail stores and sales channels
-- 120+ - Countries in sourcing and logistics coordination
-- Full-cycle - Import, logistics, compliance, marketing, and sales execution
+- 120+ - Countries connected through sourcing and logistics coordination
+- Full-cycle - Import, compliance, logistics, distribution, marketing, and sales execution
 - B2B / B2G - Commercial, wholesale, institutional, and public-sector procurement
 
 ## Main Positioning Statement
 
-Galkynys LLC is not only an importer or distributor. It is a full-cycle market-entry and brand-development partner for Turkmenistan.
+Galkynys LLC is a full-cycle market-entry and brand-development partner for Turkmenistan. The company connects international suppliers, manufacturers, and brand owners with local import operations, compliance support, retail and wholesale distribution, public-sector procurement opportunities, and long-term commercial growth.
 
 ## Positioning Section
 
@@ -71,23 +79,46 @@ Positioning
 
 Section title:
 
-A full-cycle platform for market entry and growth
+A complete platform for market entry and commercial growth
 
 ### A vertically integrated commercial platform
 
 Galkynys LLC and its dedicated business division, galkynys.biz, support international suppliers, manufacturers, brand owners, exporters, and trading partners entering and developing the Turkmen market.
 
-### From supplier negotiations to retail execution
+### From supplier negotiations to market launch
 
-The company manages the complete chain of commercial operations: sourcing, procurement, logistics, customs coordination, certification support, warehousing, distribution, marketing, retail placement, sales analytics, regional expansion, and long-term brand development.
+The company coordinates the key stages required for reliable commercial execution: supplier negotiations, sourcing, procurement, freight, customs documentation, certification support, warehousing, retail placement, sales activation, category monitoring, and long-term brand development.
 
 ### Retail, wholesale, and partner-channel access
 
-Galkynys LLC supports distribution through its own retail infrastructure of 250+ stores, partner networks, wholesale channels, specialized retail chains, affiliated sales platforms, and professional market segments.
+Galkynys LLC provides structured access to the Turkmen consumer and business market through its retail infrastructure of 250+ stores and sales channels, partner networks, wholesale channels, specialized retail chains, affiliated platforms, and professional market segments.
 
 ### Complex procurement and public-sector supply
 
-The company supports B2G, institutional, and large-scale procurement by managing complex procedures, legal and regulatory obligations, strict delivery timelines, local certification, supplier coordination, logistics, and reliable delivery across various sectors.
+The company supports B2G, institutional, and large-scale procurement by managing supplier coordination, documentation, local compliance, delivery planning, certification requirements, and reliable execution across complex purchasing procedures.
+
+## Industries and Product Categories
+
+Eyebrow:
+
+Industries
+
+Section title:
+
+Categories supported by the platform
+
+Section description:
+
+Galkynys LLC works with international partners across selected consumer, commercial, and institutional product categories where reliable import, distribution, compliance, and retail execution are essential.
+
+Categories:
+
+- Consumer goods and retail products
+- Electronics, appliances, and technical products
+- Home, lifestyle, and household categories
+- Professional equipment and B2B supply
+- Institutional and public-sector procurement categories
+- Wholesale, regional, and specialized trade channels
 
 ## Route To Market
 
@@ -97,18 +128,19 @@ Integrated route-to-market platform
 
 Section description:
 
-From supplier negotiations to market growth, the platform connects every critical step required for reliable commercial execution in Turkmenistan.
+From the first supplier discussion to long-term market growth, Galkynys LLC connects the operational, regulatory, commercial, and retail steps required for sustainable business development in Turkmenistan.
 
 Steps:
 
-1. Supplier negotiations
-2. Global sourcing
-3. Freight and logistics
-4. Customs and certification
-5. Warehousing and inventory
-6. Retail and partner distribution
-7. Marketing and trade execution
-8. Analytics and regional growth
+1. Supplier discussion and product assessment
+2. Market potential and category review
+3. Global sourcing and procurement planning
+4. Freight, logistics, and customs coordination
+5. Compliance, certification, and documentation support
+6. Warehousing, inventory, and availability planning
+7. Retail, wholesale, and partner-channel distribution
+8. Marketing, trade execution, and sales activation
+9. Analytics, category monitoring, and regional growth
 
 ## Partnership
 
@@ -122,13 +154,36 @@ Why partner with Galkynys LLC
 
 Reasons:
 
-- Nationwide retail and distribution coverage through 250+ stores and partner channels
+- Nationwide retail and distribution coverage through 250+ stores and sales channels
 - Direct access to retail buyers, category managers, wholesale channels, and specialized sales networks
-- Full-cycle import, logistics, customs, documentation, and local certification support
-- Brand launch, trade marketing, merchandising, and long-term brand development
-- Commercial analytics, category performance monitoring, and route-to-market planning
-- Public-sector procurement experience, tender participation, and complex project execution
-- Banking, trade finance, payment coordination, and structured procurement support
+- Practical support with import operations, customs documentation, compliance, and local certification requirements
+- Structured brand launch, trade marketing, merchandising, and long-term brand-development support
+- Category performance monitoring, sales analytics, demand review, and route-to-market planning
+- Public-sector procurement experience, tender participation support, and complex project execution
+- Banking, payment coordination, trade finance support, and structured procurement planning
+- Local market knowledge combined with international sourcing and logistics coordination
+
+## Trust and Execution Standards
+
+Eyebrow:
+
+Trust
+
+Section title:
+
+Built for reliable commercial execution
+
+Description:
+
+Galkynys LLC operates with a focus on transparent documentation, compliant import processes, structured supplier communication, reliable delivery, and long-term commercial accountability. The company supports partners not only during initial market entry, but also throughout product availability, retail execution, sales development, and regional expansion.
+
+Principles:
+
+- Compliance-oriented import and documentation processes
+- Clear supplier communication and structured project coordination
+- Reliable delivery planning for retail, wholesale, and institutional channels
+- Market execution focused on long-term brand presence, not short-term transactions
+- Practical commercial support from product assessment to sales performance review
 
 ## Capabilities
 
@@ -146,57 +201,57 @@ Lead:
 
 Helping international manufacturers and brand owners enter Turkmenistan with a structured commercial model.
 
-#### Market-entry platform
+#### Market-entry planning
 
-Route-to-market planning that combines supplier relations, import operations, retail access, trade marketing, and sales development.
+Route-to-market planning that connects supplier relations, import operations, retail access, trade marketing, and sales development.
 
 #### Supplier and brand relations
 
-Direct cooperation with manufacturers, exporters, brand owners, and international trading partners.
+Direct cooperation with manufacturers, exporters, brand owners, and international trading partners seeking reliable local market access.
 
 #### Product portfolio development
 
-Assortment planning based on local demand, category potential, pricing strategy, quality standards, and retail performance.
+Assortment planning based on local demand, category potential, pricing structure, quality expectations, compliance requirements, and retail performance.
 
 #### Trade consulting and market strategy
 
-Practical support for pricing structure, category strategy, retail readiness, distribution model planning, and market potential assessment.
+Practical support for pricing, category strategy, product readiness, distribution model planning, and market potential assessment.
 
 ### Import, Logistics, and Compliance
 
 Lead:
 
-Managing the operational path from global production centers to legal and efficient market availability.
+Managing the operational path from international production and sourcing centers to legal and efficient market availability in Turkmenistan.
 
 #### Global sourcing and logistics
 
-Sourcing and logistics coordination across more than 120 countries through structured freight, delivery, and supply processes.
+Sourcing and logistics coordination connected to suppliers, freight partners, and trade routes across 120+ countries.
 
-#### Customs, import, and compliance
+#### Customs, import, and documentation
 
-Import documentation, customs procedures, conformity requirements, labeling, packaging adaptation, and market-readiness support.
+Support with import documentation, customs procedures, conformity requirements, labeling, packaging adaptation, and market-readiness preparation.
 
 #### Local certification and regulation
 
-Coordination of product requirements, legal obligations, conformity assessment, certification, and regulatory documentation.
+Coordination of product requirements, legal obligations, conformity assessment, certification processes, and regulatory documentation.
 
 #### Warehousing and inventory planning
 
-Storage, stock control, replenishment coordination, product availability management, and reliable supply for retail and wholesale channels.
+Storage, stock control, replenishment coordination, product availability management, and supply planning for retail, wholesale, and institutional channels.
 
 ### Retail, Brand, and Sales Execution
 
 Lead:
 
-Turning imported products into sustainable retail performance across internal and partner channels.
+Turning imported products into sustainable retail and wholesale performance across internal and partner sales channels.
 
 #### Retail network integration
 
-Structured access to the Turkmen consumer market through 250+ retail stores and partner sales channels.
+Structured access to the Turkmen consumer market through 250+ retail stores, sales channels, and partner networks.
 
 #### B2B and wholesale distribution
 
-Cooperation with business customers, specialized retail chains, regional wholesalers, affiliated platforms, and professional buyers.
+Cooperation with business customers, specialized retail chains, regional wholesalers, affiliated platforms, professional buyers, and institutional customers.
 
 #### Brand launch and development
 
@@ -208,55 +263,83 @@ Retail promotions, in-store visibility, merchandising coordination, campaign pla
 
 #### Commercial analytics and category management
 
-Sales analytics, demand forecasting, category performance data, stock movement analysis, and pricing support.
+Sales analytics, demand forecasting, category performance monitoring, stock movement analysis, and pricing support.
 
 #### Sales coverage and regional development
 
-Nationwide sales coverage across major cities, regional markets, retail outlets, and specialized sales channels.
+Sales development across major cities, regional markets, retail outlets, partner channels, and specialized sales segments.
 
 ### Public Procurement and Financial Support
 
 Lead:
 
-Supporting complex commercial, institutional, and government procurement projects with documentation, compliance, and financing coordination.
+Supporting complex commercial, institutional, and government procurement projects with documentation, compliance, logistics, and financing coordination.
 
 #### Public-sector procurement and tenders
 
-Participation in and execution of government tenders across various sectors with reliable supply, documentation, logistics, and delivery capabilities.
+Participation in and execution of government and institutional tenders across selected sectors with reliable supply, documentation, logistics, and delivery capabilities.
 
 #### Complex procurement and compliance
 
-Management of tender procedures, extensive documentation, strict delivery timelines, legal obligations, local certification, and large-scale purchasing projects.
+Management of tender procedures, supplier documentation, delivery timelines, legal requirements, local certification, and large-scale purchasing projects.
 
 #### Financial and banking support
 
-Trade financing, banking instruments, payment coordination, structured procurement planning, and scalable commercial finance mechanisms.
+Trade financing coordination, banking instruments, payment planning, structured procurement support, and scalable commercial finance mechanisms.
 
 #### Long-term market development
 
-Support for stable brand presence, regional expansion, sales growth, and sustainable business development in Turkmenistan.
+Support for stable brand presence, regional expansion, sales growth, product availability, and sustainable business development in Turkmenistan.
+
+## Supplier CTA Section
+
+Eyebrow:
+
+For international suppliers
+
+Section title:
+
+Enter Turkmenistan with a structured local partner
+
+Description:
+
+For international suppliers, manufacturers, exporters, and brand owners interested in Turkmenistan, Galkynys LLC provides a practical path from first discussion to import, compliance, distribution, retail execution, procurement opportunities, and long-term market growth.
+
+CTA text:
+
+Contact Galkynys LLC to discuss distribution, import cooperation, procurement projects, or market-entry opportunities in Turkmenistan.
+
+CTA button:
+
+Send Partnership Inquiry
 
 ## Closing Overview Text
 
-The website will serve as a dedicated platform for supplier relations, international partnerships, import operations, distribution opportunities, public-sector procurement, and market-development cooperation.
+The website will serve as a dedicated platform for supplier relations, international partnerships, import operations, distribution opportunities, public-sector procurement, and market-development cooperation in Turkmenistan.
 
 ## Reusable YAML Content Block
 
 ```yaml
 title: Galkynys LLC
 kicker: Market-entry platform for Turkmenistan
-description: Galkynys LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
+description: Galkynys LLC helps international manufacturers, suppliers, and brand owners enter, distribute, and grow in Turkmenistan through import operations, compliance support, retail access, procurement channels, and long-term market development.
+seo_description: Galkynys LLC is a full-cycle market-entry, import, logistics, compliance, distribution, and brand-development partner helping international suppliers enter and grow in Turkmenistan.
 status: This website is currently under development.
+primary_cta: Discuss Partnership
+secondary_cta: Explore Capabilities
 intro: >-
-  Galkynys LLC is not only an importer or distributor. It is a full-cycle
-  market-entry and brand-development partner for Turkmenistan.
+  Galkynys LLC is a full-cycle market-entry and brand-development partner
+  for Turkmenistan. The company connects international suppliers,
+  manufacturers, and brand owners with local import operations, compliance
+  support, retail and wholesale distribution, public-sector procurement
+  opportunities, and long-term commercial growth.
 highlights:
   - value: 250+
     label: Retail stores and sales channels
   - value: 120+
-    label: Countries in sourcing and logistics coordination
+    label: Countries connected through sourcing and logistics coordination
   - value: Full-cycle
-    label: Import, logistics, compliance, marketing, and sales execution
+    label: Import, compliance, logistics, distribution, marketing, and sales execution
   - value: B2B / B2G
     label: Commercial, wholesale, institutional, and public-sector procurement
 story_blocks:
@@ -265,94 +348,142 @@ story_blocks:
       Galkynys LLC and its dedicated business division, galkynys.biz,
       support international suppliers, manufacturers, brand owners, exporters,
       and trading partners entering and developing the Turkmen market.
-  - title: From supplier negotiations to retail execution
+  - title: From supplier negotiations to market launch
     text: >-
-      The company manages the complete chain of commercial operations: sourcing,
-      procurement, logistics, customs coordination, certification support,
-      warehousing, distribution, marketing, retail placement, sales analytics,
-      regional expansion, and long-term brand development.
+      The company coordinates the key stages required for reliable commercial
+      execution: supplier negotiations, sourcing, procurement, freight,
+      customs documentation, certification support, warehousing, retail
+      placement, sales activation, category monitoring, and long-term brand
+      development.
   - title: Retail, wholesale, and partner-channel access
     text: >-
-      Galkynys LLC supports distribution through its own retail infrastructure
-      of 250+ stores, partner networks, wholesale channels, specialized retail
-      chains, affiliated sales platforms, and professional market segments.
+      Galkynys LLC provides structured access to the Turkmen consumer and
+      business market through its retail infrastructure of 250+ stores and
+      sales channels, partner networks, wholesale channels, specialized retail
+      chains, affiliated platforms, and professional market segments.
   - title: Complex procurement and public-sector supply
     text: >-
       The company supports B2G, institutional, and large-scale procurement by
-      managing complex procedures, legal and regulatory obligations, strict
-      delivery timelines, local certification, supplier coordination, logistics,
-      and reliable delivery across various sectors.
+      managing supplier coordination, documentation, local compliance, delivery
+      planning, certification requirements, and reliable execution across
+      complex purchasing procedures.
+industries_eyebrow: Industries
+industries_heading: Categories supported by the platform
+industries_description: >-
+  Galkynys LLC works with international partners across selected consumer,
+  commercial, and institutional product categories where reliable import,
+  distribution, compliance, and retail execution are essential.
+industries:
+  - Consumer goods and retail products
+  - Electronics, appliances, and technical products
+  - Home, lifestyle, and household categories
+  - Professional equipment and B2B supply
+  - Institutional and public-sector procurement categories
+  - Wholesale, regional, and specialized trade channels
 route_heading: Integrated route-to-market platform
-route_description: From supplier negotiations to market growth, the platform connects every critical step required for reliable commercial execution in Turkmenistan.
+route_description: >-
+  From the first supplier discussion to long-term market growth, Galkynys LLC
+  connects the operational, regulatory, commercial, and retail steps required
+  for sustainable business development in Turkmenistan.
 route_to_market:
-  - Supplier negotiations
-  - Global sourcing
-  - Freight and logistics
-  - Customs and certification
-  - Warehousing and inventory
-  - Retail and partner distribution
-  - Marketing and trade execution
-  - Analytics and regional growth
+  - Supplier discussion and product assessment
+  - Market potential and category review
+  - Global sourcing and procurement planning
+  - Freight, logistics, and customs coordination
+  - Compliance, certification, and documentation support
+  - Warehousing, inventory, and availability planning
+  - Retail, wholesale, and partner-channel distribution
+  - Marketing, trade execution, and sales activation
+  - Analytics, category monitoring, and regional growth
 partner_eyebrow: Partnership
 partner_heading: Why partner with Galkynys LLC
 why_partner_with_us:
-  - Nationwide retail and distribution coverage through 250+ stores and partner channels
+  - Nationwide retail and distribution coverage through 250+ stores and sales channels
   - Direct access to retail buyers, category managers, wholesale channels, and specialized sales networks
-  - Full-cycle import, logistics, customs, documentation, and local certification support
-  - Brand launch, trade marketing, merchandising, and long-term brand development
-  - Commercial analytics, category performance monitoring, and route-to-market planning
-  - Public-sector procurement experience, tender participation, and complex project execution
-  - Banking, trade finance, payment coordination, and structured procurement support
+  - Practical support with import operations, customs documentation, compliance, and local certification requirements
+  - Structured brand launch, trade marketing, merchandising, and long-term brand-development support
+  - Category performance monitoring, sales analytics, demand review, and route-to-market planning
+  - Public-sector procurement experience, tender participation support, and complex project execution
+  - Banking, payment coordination, trade finance support, and structured procurement planning
+  - Local market knowledge combined with international sourcing and logistics coordination
+trust_eyebrow: Trust
+trust_heading: Built for reliable commercial execution
+trust_description: >-
+  Galkynys LLC operates with a focus on transparent documentation, compliant
+  import processes, structured supplier communication, reliable delivery, and
+  long-term commercial accountability. The company supports partners not only
+  during initial market entry, but also throughout product availability, retail
+  execution, sales development, and regional expansion.
+trust_principles:
+  - Compliance-oriented import and documentation processes
+  - Clear supplier communication and structured project coordination
+  - Reliable delivery planning for retail, wholesale, and institutional channels
+  - Market execution focused on long-term brand presence, not short-term transactions
+  - Practical commercial support from product assessment to sales performance review
 capabilities_eyebrow: Capabilities
 capabilities_heading: What the platform covers
 capability_groups:
   - title: Market Entry and Supplier Growth
     lead: Helping international manufacturers and brand owners enter Turkmenistan with a structured commercial model.
     items:
-      - title: Market-entry platform
-        text: Route-to-market planning that combines supplier relations, import operations, retail access, trade marketing, and sales development.
+      - title: Market-entry planning
+        text: Route-to-market planning that connects supplier relations, import operations, retail access, trade marketing, and sales development.
       - title: Supplier and brand relations
-        text: Direct cooperation with manufacturers, exporters, brand owners, and international trading partners.
+        text: Direct cooperation with manufacturers, exporters, brand owners, and international trading partners seeking reliable local market access.
       - title: Product portfolio development
-        text: Assortment planning based on local demand, category potential, pricing strategy, quality standards, and retail performance.
+        text: Assortment planning based on local demand, category potential, pricing structure, quality expectations, compliance requirements, and retail performance.
       - title: Trade consulting and market strategy
-        text: Practical support for pricing structure, category strategy, retail readiness, distribution model planning, and market potential assessment.
+        text: Practical support for pricing, category strategy, product readiness, distribution model planning, and market potential assessment.
   - title: Import, Logistics, and Compliance
-    lead: Managing the operational path from global production centers to legal and efficient market availability.
+    lead: Managing the operational path from international production and sourcing centers to legal and efficient market availability in Turkmenistan.
     items:
       - title: Global sourcing and logistics
-        text: Sourcing and logistics coordination across more than 120 countries through structured freight, delivery, and supply processes.
-      - title: Customs, import, and compliance
-        text: Import documentation, customs procedures, conformity requirements, labeling, packaging adaptation, and market-readiness support.
+        text: Sourcing and logistics coordination connected to suppliers, freight partners, and trade routes across 120+ countries.
+      - title: Customs, import, and documentation
+        text: Support with import documentation, customs procedures, conformity requirements, labeling, packaging adaptation, and market-readiness preparation.
       - title: Local certification and regulation
-        text: Coordination of product requirements, legal obligations, conformity assessment, certification, and regulatory documentation.
+        text: Coordination of product requirements, legal obligations, conformity assessment, certification processes, and regulatory documentation.
       - title: Warehousing and inventory planning
-        text: Storage, stock control, replenishment coordination, product availability management, and reliable supply for retail and wholesale channels.
+        text: Storage, stock control, replenishment coordination, product availability management, and supply planning for retail, wholesale, and institutional channels.
   - title: Retail, Brand, and Sales Execution
-    lead: Turning imported products into sustainable retail performance across internal and partner channels.
+    lead: Turning imported products into sustainable retail and wholesale performance across internal and partner sales channels.
     items:
       - title: Retail network integration
-        text: Structured access to the Turkmen consumer market through 250+ retail stores and partner sales channels.
+        text: Structured access to the Turkmen consumer market through 250+ retail stores, sales channels, and partner networks.
       - title: B2B and wholesale distribution
-        text: Cooperation with business customers, specialized retail chains, regional wholesalers, affiliated platforms, and professional buyers.
+        text: Cooperation with business customers, specialized retail chains, regional wholesalers, affiliated platforms, professional buyers, and institutional customers.
       - title: Brand launch and development
         text: Market positioning, launch planning, category placement, promotional strategy, consumer communication, and long-term brand growth.
       - title: Marketing and trade marketing
         text: Retail promotions, in-store visibility, merchandising coordination, campaign planning, product education, and sales activation.
       - title: Commercial analytics and category management
-        text: Sales analytics, demand forecasting, category performance data, stock movement analysis, and pricing support.
+        text: Sales analytics, demand forecasting, category performance monitoring, stock movement analysis, and pricing support.
       - title: Sales coverage and regional development
-        text: Nationwide sales coverage across major cities, regional markets, retail outlets, and specialized sales channels.
+        text: Sales development across major cities, regional markets, retail outlets, partner channels, and specialized sales segments.
   - title: Public Procurement and Financial Support
-    lead: Supporting complex commercial, institutional, and government procurement projects with documentation, compliance, and financing coordination.
+    lead: Supporting complex commercial, institutional, and government procurement projects with documentation, compliance, logistics, and financing coordination.
     items:
       - title: Public-sector procurement and tenders
-        text: Participation in and execution of government tenders across various sectors with reliable supply, documentation, logistics, and delivery capabilities.
+        text: Participation in and execution of government and institutional tenders across selected sectors with reliable supply, documentation, logistics, and delivery capabilities.
       - title: Complex procurement and compliance
-        text: Management of tender procedures, extensive documentation, strict delivery timelines, legal obligations, local certification, and large-scale purchasing projects.
+        text: Management of tender procedures, supplier documentation, delivery timelines, legal requirements, local certification, and large-scale purchasing projects.
       - title: Financial and banking support
-        text: Trade financing, banking instruments, payment coordination, structured procurement planning, and scalable commercial finance mechanisms.
+        text: Trade financing coordination, banking instruments, payment planning, structured procurement support, and scalable commercial finance mechanisms.
       - title: Long-term market development
-        text: Support for stable brand presence, regional expansion, sales growth, and sustainable business development in Turkmenistan.
-closing_text: The website will serve as a dedicated platform for supplier relations, international partnerships, import operations, distribution opportunities, public-sector procurement, and market-development cooperation.
+        text: Support for stable brand presence, regional expansion, sales growth, product availability, and sustainable business development in Turkmenistan.
+supplier_cta_eyebrow: For international suppliers
+supplier_cta_heading: Enter Turkmenistan with a structured local partner
+supplier_cta_description: >-
+  For international suppliers, manufacturers, exporters, and brand owners
+  interested in Turkmenistan, Galkynys LLC provides a practical path from
+  first discussion to import, compliance, distribution, retail execution,
+  procurement opportunities, and long-term market growth.
+supplier_cta_text: >-
+  Contact Galkynys LLC to discuss distribution, import cooperation,
+  procurement projects, or market-entry opportunities in Turkmenistan.
+supplier_cta_button: Send Partnership Inquiry
+closing_text: >-
+  The website will serve as a dedicated platform for supplier relations,
+  international partnerships, import operations, distribution opportunities,
+  public-sector procurement, and market-development cooperation in Turkmenistan.
 ```
