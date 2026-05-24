@@ -6,7 +6,7 @@ This file contains all human-readable copy used by the current Galkynys LLC plac
 
 Site title: Galkynys LLC
 
-Domain: https://galkynys.biz/
+Domain: https://galkynys.com
 
 Locale: en-US
 
