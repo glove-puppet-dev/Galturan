@@ -1,46 +1,46 @@
-# Bazarstore LLC Placeholder Site Content
+# Galkynys LLC Placeholder Site Content
 
-This file contains all human-readable copy used by the current Bazarstore LLC placeholder website. It is intended for transfer, reuse, or adaptation in another placeholder site.
+This file contains all human-readable copy used by the current Galkynys LLC placeholder website. It is intended for transfer, reuse, or adaptation in another placeholder site.
 
 ## Site Metadata
 
-Site title: Bazarstore LLC
+Site title: Galkynys LLC
 
-Domain: https://bazarstore.biz/
+Domain: https://galkynys.biz/
 
 Locale: en-US
 
-Manifest name: Bazarstore LLC
+Manifest name: Galkynys LLC
 
-Manifest short name: Bazarstore
+Manifest short name: Galkynys
 
 Theme color: #b4b952
 
 Background color: #ffffff
 
-Footer text: (c) {current year} Bazarstore LLC
+Footer text: (c) {current year} Galkynys LLC
 
-Logo alt text: Bazarstore LLC
+Logo alt text: Galkynys LLC
 
-Header aria label: Bazarstore LLC
+Header aria label: Galkynys LLC
 
 ## SEO Description
 
-Bazarstore LLC helps international suppliers enter Azerbaijan with import, logistics, distribution, compliance, retail access, and brand development.
+Galkynys LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
 
 ## Hero
 
 Eyebrow:
 
-Market-entry platform for Azerbaijan
+Market-entry platform for Turkmenistan
 
 Title:
 
-Bazarstore LLC
+Galkynys LLC
 
 Description:
 
-Bazarstore LLC helps international suppliers enter Azerbaijan with import, logistics, distribution, compliance, retail access, and brand development.
+Galkynys LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
 
 Status notice:
 
@@ -61,7 +61,7 @@ Facts:
 
 ## Main Positioning Statement
 
-Bazarstore LLC is not only an importer or distributor. It is a full-cycle market-entry and brand-development partner for Azerbaijan.
+Galkynys LLC is not only an importer or distributor. It is a full-cycle market-entry and brand-development partner for Turkmenistan.
 
 ## Positioning Section
 
@@ -75,7 +75,7 @@ A full-cycle platform for market entry and growth
 
 ### A vertically integrated commercial platform
 
-Bazarstore LLC and its dedicated business division, bazarstore.biz, support international suppliers, manufacturers, brand owners, exporters, and trading partners entering and developing the Azerbaijani market.
+Galkynys LLC and its dedicated business division, galkynys.biz, support international suppliers, manufacturers, brand owners, exporters, and trading partners entering and developing the Turkmen market.
 
 ### From supplier negotiations to retail execution
 
@@ -83,7 +83,7 @@ The company manages the complete chain of commercial operations: sourcing, procu
 
 ### Retail, wholesale, and partner-channel access
 
-Bazarstore LLC supports distribution through its own retail infrastructure of 250+ stores, partner networks, wholesale channels, specialized retail chains, affiliated sales platforms, and professional market segments.
+Galkynys LLC supports distribution through its own retail infrastructure of 250+ stores, partner networks, wholesale channels, specialized retail chains, affiliated sales platforms, and professional market segments.
 
 ### Complex procurement and public-sector supply
 
@@ -97,7 +97,7 @@ Integrated route-to-market platform
 
 Section description:
 
-From supplier negotiations to market growth, the platform connects every critical step required for reliable commercial execution in Azerbaijan.
+From supplier negotiations to market growth, the platform connects every critical step required for reliable commercial execution in Turkmenistan.
 
 Steps:
 
@@ -118,7 +118,7 @@ Partnership
 
 Section title:
 
-Why partner with Bazarstore LLC
+Why partner with Galkynys LLC
 
 Reasons:
 
@@ -144,7 +144,7 @@ What the platform covers
 
 Lead:
 
-Helping international manufacturers and brand owners enter Azerbaijan with a structured commercial model.
+Helping international manufacturers and brand owners enter Turkmenistan with a structured commercial model.
 
 #### Market-entry platform
 
@@ -192,7 +192,7 @@ Turning imported products into sustainable retail performance across internal an
 
 #### Retail network integration
 
-Structured access to the Azerbaijani consumer market through 250+ retail stores and partner sales channels.
+Structured access to the Turkmen consumer market through 250+ retail stores and partner sales channels.
 
 #### B2B and wholesale distribution
 
@@ -234,7 +234,7 @@ Trade financing, banking instruments, payment coordination, structured procureme
 
 #### Long-term market development
 
-Support for stable brand presence, regional expansion, sales growth, and sustainable business development in Azerbaijan.
+Support for stable brand presence, regional expansion, sales growth, and sustainable business development in Turkmenistan.
 
 ## Closing Overview Text
 
@@ -243,13 +243,13 @@ The website will serve as a dedicated platform for supplier relations, internati
 ## Reusable YAML Content Block
 
 ```yaml
-title: Bazarstore LLC
-kicker: Market-entry platform for Azerbaijan
-description: Bazarstore LLC helps international suppliers enter Azerbaijan with import, logistics, distribution, compliance, retail access, and brand development.
+title: Galkynys LLC
+kicker: Market-entry platform for Turkmenistan
+description: Galkynys LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
 status: This website is currently under development.
 intro: >-
-  Bazarstore LLC is not only an importer or distributor. It is a full-cycle
-  market-entry and brand-development partner for Azerbaijan.
+  Galkynys LLC is not only an importer or distributor. It is a full-cycle
+  market-entry and brand-development partner for Turkmenistan.
 highlights:
   - value: 250+
     label: Retail stores and sales channels
@@ -262,9 +262,9 @@ highlights:
 story_blocks:
   - title: A vertically integrated commercial platform
     text: >-
-      Bazarstore LLC and its dedicated business division, bazarstore.biz,
+      Galkynys LLC and its dedicated business division, galkynys.biz,
       support international suppliers, manufacturers, brand owners, exporters,
-      and trading partners entering and developing the Azerbaijani market.
+      and trading partners entering and developing the Turkmen market.
   - title: From supplier negotiations to retail execution
     text: >-
       The company manages the complete chain of commercial operations: sourcing,
@@ -273,7 +273,7 @@ story_blocks:
       regional expansion, and long-term brand development.
   - title: Retail, wholesale, and partner-channel access
     text: >-
-      Bazarstore LLC supports distribution through its own retail infrastructure
+      Galkynys LLC supports distribution through its own retail infrastructure
       of 250+ stores, partner networks, wholesale channels, specialized retail
       chains, affiliated sales platforms, and professional market segments.
   - title: Complex procurement and public-sector supply
@@ -283,7 +283,7 @@ story_blocks:
       delivery timelines, local certification, supplier coordination, logistics,
       and reliable delivery across various sectors.
 route_heading: Integrated route-to-market platform
-route_description: From supplier negotiations to market growth, the platform connects every critical step required for reliable commercial execution in Azerbaijan.
+route_description: From supplier negotiations to market growth, the platform connects every critical step required for reliable commercial execution in Turkmenistan.
 route_to_market:
   - Supplier negotiations
   - Global sourcing
@@ -294,7 +294,7 @@ route_to_market:
   - Marketing and trade execution
   - Analytics and regional growth
 partner_eyebrow: Partnership
-partner_heading: Why partner with Bazarstore LLC
+partner_heading: Why partner with Galkynys LLC
 why_partner_with_us:
   - Nationwide retail and distribution coverage through 250+ stores and partner channels
   - Direct access to retail buyers, category managers, wholesale channels, and specialized sales networks
@@ -307,7 +307,7 @@ capabilities_eyebrow: Capabilities
 capabilities_heading: What the platform covers
 capability_groups:
   - title: Market Entry and Supplier Growth
-    lead: Helping international manufacturers and brand owners enter Azerbaijan with a structured commercial model.
+    lead: Helping international manufacturers and brand owners enter Turkmenistan with a structured commercial model.
     items:
       - title: Market-entry platform
         text: Route-to-market planning that combines supplier relations, import operations, retail access, trade marketing, and sales development.
@@ -332,7 +332,7 @@ capability_groups:
     lead: Turning imported products into sustainable retail performance across internal and partner channels.
     items:
       - title: Retail network integration
-        text: Structured access to the Azerbaijani consumer market through 250+ retail stores and partner sales channels.
+        text: Structured access to the Turkmen consumer market through 250+ retail stores and partner sales channels.
       - title: B2B and wholesale distribution
         text: Cooperation with business customers, specialized retail chains, regional wholesalers, affiliated platforms, and professional buyers.
       - title: Brand launch and development
@@ -353,6 +353,6 @@ capability_groups:
       - title: Financial and banking support
         text: Trade financing, banking instruments, payment coordination, structured procurement planning, and scalable commercial finance mechanisms.
       - title: Long-term market development
-        text: Support for stable brand presence, regional expansion, sales growth, and sustainable business development in Azerbaijan.
+        text: Support for stable brand presence, regional expansion, sales growth, and sustainable business development in Turkmenistan.
 closing_text: The website will serve as a dedicated platform for supplier relations, international partnerships, import operations, distribution opportunities, public-sector procurement, and market-development cooperation.
 ```
