@@ -4,6 +4,8 @@ defaultContentLanguage: en
 title: Galkynys
 theme: PaperMod
 copyright: Copyright 2026 Galkynys. All rights reserved.
+taxonomies:
+  tag: tags
 
 params:
   env: production
