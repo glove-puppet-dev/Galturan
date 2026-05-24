@@ -1,10 +1,10 @@
 ---
 title: Distribution
-description: Galkynys LLC connects international suppliers with retail, wholesale, partner, institutional, and regional distribution channels in Turkmenistan.
+description: Galkynysh LLC connects international suppliers with retail, wholesale, partner, institutional, and regional distribution channels in Turkmenistan.
 kicker: Distribution
 ---
 
-Distribution is a central part of the Galkynys LLC platform. The company helps products move from international suppliers into suitable local channels with structured coordination and practical market understanding.
+Distribution is a central part of the Galkynysh LLC platform. The company helps products move from international suppliers into suitable local channels with structured coordination and practical market understanding.
 
 ## Integrated Route To Market
 

@@ -1,10 +1,10 @@
 ---
 title: Contacts
-description: Contact Galkynys LLC to discuss supplier cooperation, import operations, distribution opportunities, public-sector procurement, and market entry in Turkmenistan.
+description: Contact Galkynysh LLC to discuss supplier cooperation, import operations, distribution opportunities, public-sector procurement, and market entry in Turkmenistan.
 kicker: Contacts
 ---
 
-Contact Galkynys LLC to discuss partnership, product distribution, supplier cooperation, public-sector procurement, or market-entry opportunities in Turkmenistan.
+Contact Galkynysh LLC to discuss partnership, product distribution, supplier cooperation, public-sector procurement, or market-entry opportunities in Turkmenistan.
 
 ## Partnership Requests
 

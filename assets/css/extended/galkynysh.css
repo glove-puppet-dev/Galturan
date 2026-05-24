@@ -93,7 +93,7 @@ a {
     padding: 0;
 }
 
-.galkynys-home {
+.galkynysh-home {
     overflow: hidden;
 }
 
@@ -681,7 +681,7 @@ a {
     color: var(--gk-muted);
 }
 
-.galkynys-footer {
+.galkynysh-footer {
     height: auto;
     padding: 28px 24px;
     border-top: 1px solid var(--gk-line);

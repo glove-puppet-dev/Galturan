@@ -1,32 +1,32 @@
-# Galkynys LLC Placeholder Site Content — Improved Version
+# Galkynysh LLC Placeholder Site Content — Improved Version
 
-This file contains the improved human-readable copy for the current Galkynys LLC placeholder website. It is prepared for transfer, reuse, or adaptation in a corporate market-entry landing page.
+This file contains the improved human-readable copy for the current Galkynysh LLC placeholder website. It is prepared for transfer, reuse, or adaptation in a corporate market-entry landing page.
 
 ## Site Metadata
 
-Site title: Galkynys LLC
+Site title: Galkynysh LLC
 
-Domain: https://galkynys.com
+Domain: https://galkynysh.com
 
 Locale: en-US
 
-Manifest name: Galkynys LLC
+Manifest name: Galkynysh LLC
 
-Manifest short name: Galkynys
+Manifest short name: Galkynysh
 
 Theme color: #b4b952
 
 Background color: #ffffff
 
-Footer text: (c) {current year} Galkynys LLC
+Footer text: (c) {current year} Galkynysh LLC
 
-Logo alt text: Galkynys LLC
+Logo alt text: Galkynysh LLC
 
-Header aria label: Galkynys LLC
+Header aria label: Galkynysh LLC
 
 ## SEO Description
 
-Galkynys LLC is a full-cycle market-entry, import, logistics, compliance, distribution, and brand-development partner helping international suppliers enter and grow in Turkmenistan.
+Galkynysh LLC is a full-cycle market-entry, import, logistics, compliance, distribution, and brand-development partner helping international suppliers enter and grow in Turkmenistan.
 
 ## Hero
 
@@ -36,11 +36,11 @@ Market-entry platform for Turkmenistan
 
 Title:
 
-Galkynys LLC
+Galkynysh LLC
 
 Description:
 
-Galkynys LLC helps international manufacturers, suppliers, and brand owners enter, distribute, and grow in Turkmenistan through import operations, compliance support, retail access, procurement channels, and long-term market development.
+Galkynysh LLC helps international manufacturers, suppliers, and brand owners enter, distribute, and grow in Turkmenistan through import operations, compliance support, retail access, procurement channels, and long-term market development.
 
 Status notice:
 
@@ -69,7 +69,7 @@ Facts:
 
 ## Main Positioning Statement
 
-Galkynys LLC is a full-cycle market-entry and brand-development partner for Turkmenistan. The company connects international suppliers, manufacturers, and brand owners with local import operations, compliance support, retail and wholesale distribution, public-sector procurement opportunities, and long-term commercial growth.
+Galkynysh LLC is a full-cycle market-entry and brand-development partner for Turkmenistan. The company connects international suppliers, manufacturers, and brand owners with local import operations, compliance support, retail and wholesale distribution, public-sector procurement opportunities, and long-term commercial growth.
 
 ## Positioning Section
 
@@ -83,7 +83,7 @@ A complete platform for market entry and commercial growth
 
 ### A vertically integrated commercial platform
 
-Galkynys LLC and its dedicated business division, galkynys.biz, support international suppliers, manufacturers, brand owners, exporters, and trading partners entering and developing the Turkmen market.
+Galkynysh LLC and its dedicated business division, galkynysh.biz, support international suppliers, manufacturers, brand owners, exporters, and trading partners entering and developing the Turkmen market.
 
 ### From supplier negotiations to market launch
 
@@ -91,7 +91,7 @@ The company coordinates the key stages required for reliable commercial executio
 
 ### Retail, wholesale, and partner-channel access
 
-Galkynys LLC provides structured access to the Turkmen consumer and business market through its retail infrastructure of 250+ stores and sales channels, partner networks, wholesale channels, specialized retail chains, affiliated platforms, and professional market segments.
+Galkynysh LLC provides structured access to the Turkmen consumer and business market through its retail infrastructure of 250+ stores and sales channels, partner networks, wholesale channels, specialized retail chains, affiliated platforms, and professional market segments.
 
 ### Complex procurement and public-sector supply
 
@@ -109,7 +109,7 @@ Categories supported by the platform
 
 Section description:
 
-Galkynys LLC works with international partners across selected consumer, commercial, and institutional product categories where reliable import, distribution, compliance, and retail execution are essential.
+Galkynysh LLC works with international partners across selected consumer, commercial, and institutional product categories where reliable import, distribution, compliance, and retail execution are essential.
 
 Categories:
 
@@ -128,7 +128,7 @@ Integrated route-to-market platform
 
 Section description:
 
-From the first supplier discussion to long-term market growth, Galkynys LLC connects the operational, regulatory, commercial, and retail steps required for sustainable business development in Turkmenistan.
+From the first supplier discussion to long-term market growth, Galkynysh LLC connects the operational, regulatory, commercial, and retail steps required for sustainable business development in Turkmenistan.
 
 Steps:
 
@@ -150,7 +150,7 @@ Partnership
 
 Section title:
 
-Why partner with Galkynys LLC
+Why partner with Galkynysh LLC
 
 Reasons:
 
@@ -175,7 +175,7 @@ Built for reliable commercial execution
 
 Description:
 
-Galkynys LLC operates with a focus on transparent documentation, compliant import processes, structured supplier communication, reliable delivery, and long-term commercial accountability. The company supports partners not only during initial market entry, but also throughout product availability, retail execution, sales development, and regional expansion.
+Galkynysh LLC operates with a focus on transparent documentation, compliant import processes, structured supplier communication, reliable delivery, and long-term commercial accountability. The company supports partners not only during initial market entry, but also throughout product availability, retail execution, sales development, and regional expansion.
 
 Principles:
 
@@ -303,11 +303,11 @@ Enter Turkmenistan with a structured local partner
 
 Description:
 
-For international suppliers, manufacturers, exporters, and brand owners interested in Turkmenistan, Galkynys LLC provides a practical path from first discussion to import, compliance, distribution, retail execution, procurement opportunities, and long-term market growth.
+For international suppliers, manufacturers, exporters, and brand owners interested in Turkmenistan, Galkynysh LLC provides a practical path from first discussion to import, compliance, distribution, retail execution, procurement opportunities, and long-term market growth.
 
 CTA text:
 
-Contact Galkynys LLC to discuss distribution, import cooperation, procurement projects, or market-entry opportunities in Turkmenistan.
+Contact Galkynysh LLC to discuss distribution, import cooperation, procurement projects, or market-entry opportunities in Turkmenistan.
 
 CTA button:
 
@@ -320,15 +320,15 @@ The website will serve as a dedicated platform for supplier relations, internati
 ## Reusable YAML Content Block
 
 ```yaml
-title: Galkynys LLC
+title: Galkynysh LLC
 kicker: Market-entry platform for Turkmenistan
-description: Galkynys LLC helps international manufacturers, suppliers, and brand owners enter, distribute, and grow in Turkmenistan through import operations, compliance support, retail access, procurement channels, and long-term market development.
-seo_description: Galkynys LLC is a full-cycle market-entry, import, logistics, compliance, distribution, and brand-development partner helping international suppliers enter and grow in Turkmenistan.
+description: Galkynysh LLC helps international manufacturers, suppliers, and brand owners enter, distribute, and grow in Turkmenistan through import operations, compliance support, retail access, procurement channels, and long-term market development.
+seo_description: Galkynysh LLC is a full-cycle market-entry, import, logistics, compliance, distribution, and brand-development partner helping international suppliers enter and grow in Turkmenistan.
 status: This website is currently under development.
 primary_cta: Discuss Partnership
 secondary_cta: Explore Capabilities
 intro: >-
-  Galkynys LLC is a full-cycle market-entry and brand-development partner
+  Galkynysh LLC is a full-cycle market-entry and brand-development partner
   for Turkmenistan. The company connects international suppliers,
   manufacturers, and brand owners with local import operations, compliance
   support, retail and wholesale distribution, public-sector procurement
@@ -345,7 +345,7 @@ highlights:
 story_blocks:
   - title: A vertically integrated commercial platform
     text: >-
-      Galkynys LLC and its dedicated business division, galkynys.biz,
+      Galkynysh LLC and its dedicated business division, galkynysh.biz,
       support international suppliers, manufacturers, brand owners, exporters,
       and trading partners entering and developing the Turkmen market.
   - title: From supplier negotiations to market launch
@@ -357,7 +357,7 @@ story_blocks:
       development.
   - title: Retail, wholesale, and partner-channel access
     text: >-
-      Galkynys LLC provides structured access to the Turkmen consumer and
+      Galkynysh LLC provides structured access to the Turkmen consumer and
       business market through its retail infrastructure of 250+ stores and
       sales channels, partner networks, wholesale channels, specialized retail
       chains, affiliated platforms, and professional market segments.
@@ -370,7 +370,7 @@ story_blocks:
 industries_eyebrow: Industries
 industries_heading: Categories supported by the platform
 industries_description: >-
-  Galkynys LLC works with international partners across selected consumer,
+  Galkynysh LLC works with international partners across selected consumer,
   commercial, and institutional product categories where reliable import,
   distribution, compliance, and retail execution are essential.
 industries:
@@ -382,7 +382,7 @@ industries:
   - Wholesale, regional, and specialized trade channels
 route_heading: Integrated route-to-market platform
 route_description: >-
-  From the first supplier discussion to long-term market growth, Galkynys LLC
+  From the first supplier discussion to long-term market growth, Galkynysh LLC
   connects the operational, regulatory, commercial, and retail steps required
   for sustainable business development in Turkmenistan.
 route_to_market:
@@ -396,7 +396,7 @@ route_to_market:
   - Marketing, trade execution, and sales activation
   - Analytics, category monitoring, and regional growth
 partner_eyebrow: Partnership
-partner_heading: Why partner with Galkynys LLC
+partner_heading: Why partner with Galkynysh LLC
 why_partner_with_us:
   - Nationwide retail and distribution coverage through 250+ stores and sales channels
   - Direct access to retail buyers, category managers, wholesale channels, and specialized sales networks
@@ -409,7 +409,7 @@ why_partner_with_us:
 trust_eyebrow: Trust
 trust_heading: Built for reliable commercial execution
 trust_description: >-
-  Galkynys LLC operates with a focus on transparent documentation, compliant
+  Galkynysh LLC operates with a focus on transparent documentation, compliant
   import processes, structured supplier communication, reliable delivery, and
   long-term commercial accountability. The company supports partners not only
   during initial market entry, but also throughout product availability, retail
@@ -475,11 +475,11 @@ supplier_cta_eyebrow: For international suppliers
 supplier_cta_heading: Enter Turkmenistan with a structured local partner
 supplier_cta_description: >-
   For international suppliers, manufacturers, exporters, and brand owners
-  interested in Turkmenistan, Galkynys LLC provides a practical path from
+  interested in Turkmenistan, Galkynysh LLC provides a practical path from
   first discussion to import, compliance, distribution, retail execution,
   procurement opportunities, and long-term market growth.
 supplier_cta_text: >-
-  Contact Galkynys LLC to discuss distribution, import cooperation,
+  Contact Galkynysh LLC to discuss distribution, import cooperation,
   procurement projects, or market-entry opportunities in Turkmenistan.
 supplier_cta_button: Send Partnership Inquiry
 closing_text: >-

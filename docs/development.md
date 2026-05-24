@@ -57,7 +57,7 @@ mise exec -- hugo --minify
 Проверочная чистая сборка вне репозитория:
 
 ```sh
-mise exec -- hugo --minify --noBuildLock --destination /private/tmp/galkynys-hugo-build --cleanDestinationDir
+mise exec -- hugo --minify --noBuildLock --destination /private/tmp/galkynysh-hugo-build --cleanDestinationDir
 ```
 
 ## Полезные проверки

@@ -1,17 +1,17 @@
-baseURL: https://galkynys.com/
+baseURL: https://galkynysh.com/
 locale: en-us
 defaultContentLanguage: en
-title: Galkynys LLC
+title: Galkynysh LLC
 theme: PaperMod
-copyright: Copyright 2026 Galkynys LLC. All rights reserved.
+copyright: Copyright 2026 Galkynysh LLC. All rights reserved.
 taxonomies:
   tag: tags
 
 params:
   env: production
-  description: Galkynys LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
+  description: Galkynysh LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
   keywords:
-    - Galkynys LLC
+    - Galkynysh LLC
     - Turkmenistan distribution
     - import company Turkmenistan
     - B2B distribution
@@ -29,7 +29,7 @@ params:
   ShowRssButtonInSectionTermList: false
   hideFooter: false
   label:
-    text: Galkynys LLC
+    text: Galkynysh LLC
   assets:
     theme_color: "#0f3d3e"
     msapplication_TileColor: "#0f3d3e"

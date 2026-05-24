@@ -1,10 +1,10 @@
 ---
 title: Categories
-description: Galkynys LLC supports a broad portfolio of consumer product categories for import, distribution, and brand development in Turkmenistan.
+description: Galkynysh LLC supports a broad portfolio of consumer product categories for import, distribution, and brand development in Turkmenistan.
 kicker: Categories
 ---
 
-Galkynys LLC works with diverse consumer product categories and supports brands that are ready to enter or expand in the Turkmenistan market.
+Galkynysh LLC works with diverse consumer product categories and supports brands that are ready to enter or expand in the Turkmenistan market.
 
 The category portfolio can expand based on supplier opportunities, market demand, compliance requirements, pricing strategy, quality standards, and distribution potential.
 
@@ -21,4 +21,4 @@ The category portfolio can expand based on supplier opportunities, market demand
 
 Product portfolio development is based on local demand, category potential, pricing structure, quality standards, retail readiness, and performance across distribution channels.
 
-Galkynys LLC supports assortment planning, launch preparation, market positioning, and long-term category growth for suitable products.
+Galkynysh LLC supports assortment planning, launch preparation, market positioning, and long-term category growth for suitable products.

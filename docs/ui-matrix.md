@@ -1,6 +1,6 @@
-# UI-матрица Galkynys LLC
+# UI-матрица Galkynysh LLC
 
-Матрица фиксирует фактическую UI-систему текущей версии проекта Galkynys LLC.
+Матрица фиксирует фактическую UI-систему текущей версии проекта Galkynysh LLC.
 
 Текущий стек:
 
@@ -10,7 +10,7 @@
 - mise
 - англоязычный Markdown-контент в `content/`
 - проектные overrides в `layouts/`
-- корпоративные стили в `assets/css/extended/galkynys.css`
+- корпоративные стили в `assets/css/extended/galkynysh.css`
 
 В проекте сейчас нет Node.js, Tailwind CSS, PostgreSQL, Netlify Functions и `data/entities.yaml`. Эти элементы можно добавлять позже, но они не считаются частью текущей реализации.
 
@@ -29,7 +29,7 @@
 
 | Раздел | Назначение | CTA |
 | --- | --- | --- |
-| Home | Объяснить позиционирование Galkynys LLC как full-cycle market-entry platform для Туркменистана. | `Become a Partner` |
+| Home | Объяснить позиционирование Galkynysh LLC как full-cycle market-entry platform для Туркменистана. | `Become a Partner` |
 | Company | Дать базовое доверие и объяснить роль компании. | Перейти к контактам |
 | Capabilities | Показать market entry, import, logistics, compliance, sales execution, procurement и finance support. | Review capabilities |
 | Categories | Показать направления товаров без превращения сайта в каталог. | Обсудить категорию |
@@ -88,7 +88,7 @@
 | Surface | Светлый теплый фон |
 | Border | Светлая холодная линия |
 
-Все токены находятся в `assets/css/extended/galkynys.css`.
+Все токены находятся в `assets/css/extended/galkynysh.css`.
 
 ## 6. Responsive-матрица
 
@@ -120,7 +120,7 @@
 | --- | --- | --- |
 | Hugo build | `mise exec -- hugo --minify` | Сборка без ошибок и deprecated warnings. |
 | Версия Hugo | `mise exec -- hugo version` | Hugo 0.160.1. |
-| Чистая сборка | `mise exec -- hugo --minify --noBuildLock --destination /private/tmp/galkynys-hugo-build --cleanDestinationDir` | Output собирается вне репозитория. |
+| Чистая сборка | `mise exec -- hugo --minify --noBuildLock --destination /private/tmp/galkynysh-hugo-build --cleanDestinationDir` | Output собирается вне репозитория. |
 | Ссылки меню | Проверка HTML output или ручной просмотр. | Все пункты меню ведут на 200-страницы. |
 | Mobile | 360, 390, 768 viewport. | Нет горизонтального overflow и наложений текста. |
 | Theme edits | `git status themes/PaperMod` | Подмодуль не содержит проектных правок. |

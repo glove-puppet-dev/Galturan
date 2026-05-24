@@ -1,6 +1,6 @@
-# Galkynys LLC
+# Galkynysh LLC
 
-Корпоративный сайт Galkynys LLC на Hugo для компании из Туркменистана, которая работает как full-cycle market-entry platform: импорт, логистика, compliance, дистрибуция, retail access, brand development и B2B/B2G procurement.
+Корпоративный сайт Galkynysh LLC на Hugo для компании из Туркменистана, которая работает как full-cycle market-entry platform: импорт, логистика, compliance, дистрибуция, retail access, brand development и B2B/B2G procurement.
 
 ## Стек
 

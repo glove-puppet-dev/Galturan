@@ -1,10 +1,10 @@
 ---
 title: Procurement
-description: Galkynys LLC supports B2B, institutional, and public-sector procurement in Turkmenistan through documentation, compliance, logistics, delivery, and financial coordination.
+description: Galkynysh LLC supports B2B, institutional, and public-sector procurement in Turkmenistan through documentation, compliance, logistics, delivery, and financial coordination.
 kicker: Procurement
 ---
 
-Galkynys LLC supports B2B, institutional, and public-sector procurement by managing complex procedures, legal and regulatory obligations, delivery timelines, local certification, supplier coordination, logistics, and reliable delivery across sectors.
+Galkynysh LLC supports B2B, institutional, and public-sector procurement by managing complex procedures, legal and regulatory obligations, delivery timelines, local certification, supplier coordination, logistics, and reliable delivery across sectors.
 
 ## Public-Sector Procurement and Tenders
 
@@ -12,7 +12,7 @@ The company supports participation in and execution of government tenders with r
 
 ## Complex Procurement and Compliance
 
-Galkynys LLC coordinates tender procedures, extensive documentation, strict delivery timelines, legal obligations, local certification, and large-scale purchasing projects.
+Galkynysh LLC coordinates tender procedures, extensive documentation, strict delivery timelines, legal obligations, local certification, and large-scale purchasing projects.
 
 ## Financial and Banking Support
 

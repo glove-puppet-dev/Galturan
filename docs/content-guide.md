@@ -1,6 +1,6 @@
 # Контент-гайд
 
-Сайт является англоязычным B2B-корпоративным сайтом. Контент должен помогать международным партнерам воспринимать Galkynys LLC как full-cycle market-entry платформу для Туркменистана: supplier relations, import, logistics, compliance, distribution, brand development и B2B/B2G procurement.
+Сайт является англоязычным B2B-корпоративным сайтом. Контент должен помогать международным партнерам воспринимать Galkynysh LLC как full-cycle market-entry платформу для Туркменистана: supplier relations, import, logistics, compliance, distribution, brand development и B2B/B2G procurement.
 
 ## Где находится контент
 
@@ -84,4 +84,4 @@ menus:
   -> контактный призыв к действию
 ```
 
-Визуальные стили главной находятся в `assets/css/extended/galkynys.css`.
+Визуальные стили главной находятся в `assets/css/extended/galkynysh.css`.

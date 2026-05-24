@@ -2,7 +2,7 @@
 <article class="gk-page gk-single">
     <header class="gk-page-hero">
         {{- partial "breadcrumbs.html" . }}
-        <p class="section-kicker">{{ .Params.kicker | default (.Section | default "Galkynys" | humanize) }}</p>
+        <p class="section-kicker">{{ .Params.kicker | default (.Section | default "Galkynysh" | humanize) }}</p>
         <h1>{{ .Title }}</h1>
         {{- with .Description }}
         <p class="gk-page-lead">{{ . | markdownify }}</p>

@@ -1,10 +1,10 @@
 ---
 title: Capabilities
-description: Galkynys LLC provides market-entry planning, supplier relations, import operations, logistics, compliance, distribution, brand development, procurement, and financial coordination in Turkmenistan.
+description: Galkynysh LLC provides market-entry planning, supplier relations, import operations, logistics, compliance, distribution, brand development, procurement, and financial coordination in Turkmenistan.
 kicker: Capabilities
 ---
 
-Galkynys LLC provides a full-cycle operating platform for international suppliers entering and developing the Turkmenistan market.
+Galkynysh LLC provides a full-cycle operating platform for international suppliers entering and developing the Turkmenistan market.
 
 ## Market Entry and Supplier Growth
 

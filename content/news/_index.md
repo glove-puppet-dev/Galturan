@@ -1,10 +1,10 @@
 ---
 title: News
-description: Company updates, partner announcements, and market-development notes from Galkynys LLC.
+description: Company updates, partner announcements, and market-development notes from Galkynysh LLC.
 kicker: News
 ---
 
-This section is reserved for future updates from Galkynys LLC, including company announcements, partner brand launches, market-development notes, trade events, and distribution news from Turkmenistan.
+This section is reserved for future updates from Galkynysh LLC, including company announcements, partner brand launches, market-development notes, trade events, and distribution news from Turkmenistan.
 
 ## Planned Updates
 
