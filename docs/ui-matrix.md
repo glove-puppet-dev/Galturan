@@ -1,6 +1,6 @@
-# UI-матрица Galkynys
+# UI-матрица Galkynys LLC
 
-Матрица фиксирует фактическую UI-систему текущей версии проекта Galkynys.
+Матрица фиксирует фактическую UI-систему текущей версии проекта Galkynys LLC.
 
 Текущий стек:
 
@@ -29,14 +29,16 @@
 
 | Раздел | Назначение | CTA |
 | --- | --- | --- |
-| Home | Объяснить позиционирование Galkynys как партнера для выхода на рынок Туркменистана. | `Become a Partner` |
+| Home | Объяснить позиционирование Galkynys LLC как full-cycle market-entry platform для Туркменистана. | `Become a Partner` |
 | Company | Дать базовое доверие и объяснить роль компании. | Перейти к контактам |
+| Capabilities | Показать market entry, import, logistics, compliance, sales execution, procurement и finance support. | Review capabilities |
 | Categories | Показать направления товаров без превращения сайта в каталог. | Обсудить категорию |
-| Brands | Объяснить возможности для производителей и владельцев брендов. | Предложить бренд |
-| Distribution | Показать логику локальной дистрибуции. | Обсудить дистрибуцию |
+| Brands | Дополнительная страница для brand launch и brand development; не входит в главное меню. | Предложить бренд |
+| Distribution | Показать integrated route-to-market и локальные каналы продаж. | Обсудить дистрибуцию |
 | For Suppliers | Основная страница для международных поставщиков. | Become a Partner |
+| Procurement | Описать B2B, institutional и public-sector procurement. | Обсудить procurement |
 | Logistics | Описать импорт, складирование, документы и доставку. | Запросить поддержку |
-| News | Резерв для будущих новостей и обновлений. | Читать новости |
+| News | Резервная страница для будущих новостей; не входит в главное меню. | Читать новости |
 | Contacts | Завершить конверсию и принять запрос. | Отправить запрос |
 
 ## 3. Шаблоны
@@ -63,9 +65,11 @@
 | Footer | Вторичная навигация и copyright. | `layouts/partials/footer.html` |
 | Breadcrumbs | Ориентация на внутренних страницах. | `layouts/partials/breadcrumbs.html` |
 | Home hero | Первый экран с позиционированием. | `layouts/index.html` |
+| Key facts | Четыре факта из контентной концепции. | `layouts/index.html`, CSS |
+| Story grid | Пояснение commercial platform. | `layouts/index.html`, CSS |
 | Category cards | Быстрое сканирование направлений. | `layouts/index.html`, CSS |
-| Process row | Объяснение порядка работы. | `layouts/index.html`, CSS |
-| Capability list | Список возможностей. | Markdown и CSS |
+| Route steps | Восемь шагов route-to-market. | `layouts/index.html`, CSS |
+| Capability groups | Четыре группы возможностей. | `layouts/index.html`, Markdown и CSS |
 | Page hero | Заголовок и описание внутренних страниц. | `layouts/_default/list.html`, `layouts/_default/single.html` |
 | CTA buttons | Переход к контактам и поставщикам. | CSS-классы `.button`, `.button-primary`, `.button-secondary` |
 
@@ -128,7 +132,7 @@
 - сборка Hugo 0.160.1 проходит без warnings;
 - `/categories/` является бизнес-разделом, а taxonomy `categories` отключена;
 - все пункты меню открываются;
-- главная объясняет B2B-позиционирование;
+- главная объясняет full-cycle B2B/B2G market-entry позиционирование;
 - внутренние страницы не выглядят как блог;
 - документация на русском соответствует фактическому стеку;
 - публичный сайт остается англоязычным;

@@ -1,5 +1,4 @@
 ---
-title: Galkynys
-description: Galkynys helps international brands enter, distribute, and grow across the Turkmenistan market.
+title: Galkynys LLC
+description: Galkynys LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
 ---
-

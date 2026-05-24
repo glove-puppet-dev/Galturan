@@ -207,6 +207,18 @@ a {
     line-height: 1.25;
 }
 
+.hero-status {
+    display: inline-flex;
+    margin: 20px 0 0;
+    border: 1px solid rgba(240, 198, 106, 0.42);
+    border-radius: 999px;
+    padding: 8px 12px;
+    background: rgba(240, 198, 106, 0.12);
+    color: #f5d78f;
+    font-size: 13px;
+    font-weight: 750;
+}
+
 .hero-actions {
     display: flex;
     flex-wrap: wrap;
@@ -249,9 +261,9 @@ a {
 
 .hero-metrics {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1px;
-    width: min(100%, 760px);
+    width: min(100%, 1040px);
     margin: 72px 0 0;
     border: 1px solid rgba(255, 255, 255, 0.18);
     background: rgba(255, 255, 255, 0.12);
@@ -264,8 +276,9 @@ a {
 
 .hero-metrics dt {
     color: #ffffff;
-    font-size: 24px;
+    font-size: clamp(20px, 2vw, 24px);
     font-weight: 850;
+    line-height: 1.05;
 }
 
 .hero-metrics dd {
@@ -301,6 +314,18 @@ a {
     color: var(--gk-muted);
     font-size: 18px;
     line-height: 1.62;
+}
+
+.section-copy p + p {
+    margin-top: 16px;
+}
+
+.section-lead {
+    max-width: 760px;
+    margin: 0;
+    color: var(--gk-muted);
+    font-size: 18px;
+    line-height: 1.58;
 }
 
 .text-link {
@@ -355,6 +380,51 @@ a {
     line-height: 1.2;
 }
 
+.story-section {
+    background: #ffffff;
+}
+
+.story-grid,
+.capability-groups {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.story-grid article,
+.capability-groups article {
+    display: grid;
+    align-content: start;
+    gap: 12px;
+    border: 1px solid var(--gk-line);
+    border-radius: 8px;
+    padding: 22px;
+    background: #ffffff;
+}
+
+.story-grid h3,
+.capability-groups h3 {
+    margin: 0;
+    color: var(--gk-ink);
+    font-size: 20px;
+    line-height: 1.18;
+}
+
+.story-grid p,
+.capability-groups span {
+    margin: 0;
+    color: var(--gk-muted);
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.capability-groups p {
+    margin: 0;
+    color: var(--gk-gold);
+    font-size: 13px;
+    font-weight: 850;
+}
+
 .distribution-band {
     background: var(--gk-surface);
 }
@@ -373,6 +443,10 @@ a {
     min-height: 240px;
     padding: 22px;
     background: #ffffff;
+}
+
+.route-steps div {
+    min-height: 230px;
 }
 
 .process-row span {
@@ -416,6 +490,15 @@ a {
     background: #ffffff;
     color: var(--gk-ink);
     font-weight: 700;
+}
+
+.partner-list {
+    grid-template-columns: 1fr;
+}
+
+.partner-list span {
+    font-size: 15px;
+    line-height: 1.45;
 }
 
 .logistics-section {
@@ -650,6 +733,12 @@ a {
     .process-row {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
+    .hero-metrics,
+    .story-grid,
+    .capability-groups {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 @media (max-width: 720px) {
@@ -667,7 +756,9 @@ a {
     .split-section,
     .logistics-layout,
     .contact-cta,
-    .gk-child-grid {
+    .gk-child-grid,
+    .story-grid,
+    .capability-groups {
         grid-template-columns: 1fr;
     }
 

@@ -1,16 +1,30 @@
 ---
 title: Distribution
-description: Galkynys supports retail, wholesale, and regional distribution channels across Turkmenistan.
+description: Galkynys LLC connects international suppliers with retail, wholesale, partner, institutional, and regional distribution channels in Turkmenistan.
+kicker: Distribution
 ---
 
-Distribution is the core of Galkynys. We help products move from international suppliers into the right local channels with clear coordination and a practical understanding of the market.
+Distribution is a central part of the Galkynys LLC platform. The company helps products move from international suppliers into suitable local channels with structured coordination and practical market understanding.
+
+## Integrated Route To Market
+
+1. Supplier negotiations
+2. Global sourcing
+3. Freight and logistics
+4. Customs and certification
+5. Warehousing and inventory
+6. Retail and partner distribution
+7. Marketing and trade execution
+8. Analytics and regional growth
 
 ## Distribution Channels
 
-- Retail partnerships
+- Retail stores and sales channels
 - Wholesale customers
-- Regional market coverage
-- Local commercial partners
-- Marketplace and e-commerce opportunities
+- Partner networks
+- Specialized retail chains
+- Affiliated sales platforms
+- Professional market segments
+- Institutional and public-sector supply channels
 
-Our distribution approach is built around reliability, clear communication, and sustainable growth for partner brands.
+The distribution approach is built around reliable execution, clear communication, category performance, and sustainable growth for partner brands.

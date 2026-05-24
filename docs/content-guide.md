@@ -1,6 +1,6 @@
 # Контент-гайд
 
-Сайт является англоязычным B2B-корпоративным сайтом. Контент должен помогать международным партнерам воспринимать Galkynys как локального партнера по импорту и дистрибуции в Туркменистане.
+Сайт является англоязычным B2B-корпоративным сайтом. Контент должен помогать международным партнерам воспринимать Galkynys LLC как full-cycle market-entry платформу для Туркменистана: supplier relations, import, logistics, compliance, distribution, brand development и B2B/B2G procurement.
 
 ## Где находится контент
 
@@ -8,10 +8,12 @@
 | --- | --- |
 | Метаданные главной страницы | `content/_index.md` |
 | Company | `content/company/_index.md` |
+| Capabilities | `content/capabilities/_index.md` |
 | Categories | `content/categories/_index.md` |
 | Brands | `content/brands/_index.md` |
 | Distribution | `content/distribution/_index.md` |
 | For Suppliers | `content/for-suppliers/_index.md` |
+| Procurement | `content/procurement/_index.md` |
 | Logistics | `content/logistics/_index.md` |
 | News | `content/news/_index.md` |
 | Contacts | `content/contacts/_index.md` |
@@ -34,10 +36,11 @@ description: Короткое SEO-описание страницы.
 ## Правила написания
 
 - Использовать понятный деловой английский.
-- Фокусироваться на импорте, дистрибуции, логистике и сотрудничестве с поставщиками.
+- Фокусироваться на market entry, supplier relations, импорте, compliance, дистрибуции, логистике, procurement и сотрудничестве с поставщиками.
 - Писать для международных поставщиков и коммерческих партнеров.
 - Избегать розничных формулировок вроде "shop now", "cart" или "best deals".
 - Не добавлять неподтвержденные цифры: размер склада, количество брендов, региональное покрытие и другие показатели должны быть подтверждены бизнесом.
+- Цифры, перенесенные из согласованной контентной заготовки, можно использовать в placeholder-версии, но перед production-публикацией их нужно подтвердить с бизнесом.
 - Предпочитать конкретные разделы и списки длинным маркетинговым абзацам.
 
 ## Добавление нового раздела
@@ -73,11 +76,11 @@ menus:
 
 ```text
 позиционирование выхода на рынок
-  -> доверие к компании
+  -> key facts и доверие к компании
   -> категории
-  -> процесс дистрибуции
-  -> сотрудничество с поставщиками
-  -> логистика
+  -> integrated route-to-market
+  -> причины партнерства
+  -> capabilities
   -> контактный призыв к действию
 ```
 

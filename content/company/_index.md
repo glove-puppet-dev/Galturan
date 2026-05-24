@@ -1,16 +1,33 @@
 ---
 title: Company
-description: Galkynys is a Turkmenistan-based import and distribution company focused on reliable market entry, local distribution, and long-term brand growth.
+description: Galkynys LLC is a Turkmenistan-based full-cycle market-entry and brand-development partner for international suppliers, manufacturers, exporters, and trading partners.
+kicker: Company
 ---
 
-Galkynys is an import and distribution company based in Turkmenistan. We connect international brands with local retail, wholesale, and distribution channels through market knowledge, operational discipline, and reliable B2B partnerships.
+Galkynys LLC is not only an importer or distributor. It is a full-cycle market-entry and brand-development partner for Turkmenistan.
 
-Our role is to make market entry clearer for suppliers and more dependable for buyers. From product selection and import coordination to distribution planning and partner communication, Galkynys helps brands build a stable presence in Turkmenistan.
+The company supports international suppliers, manufacturers, brand owners, exporters, and trading partners entering and developing the Turkmenistan market through structured import, logistics, compliance, distribution, retail access, and long-term commercial execution.
 
-## What We Focus On
+## A Vertically Integrated Commercial Platform
 
-- Local market expertise and category knowledge
-- Long-term relationships with suppliers and commercial partners
-- Transparent cooperation processes
-- Import, logistics, and distribution coordination
-- Practical support for brands entering Turkmenistan
+Galkynys LLC manages the complete chain of commercial operations:
+
+- Supplier negotiations and sourcing coordination
+- Procurement planning and product portfolio development
+- Freight, logistics, customs coordination, and certification support
+- Warehousing, inventory planning, and product availability management
+- Retail placement, wholesale distribution, and partner-channel access
+- Marketing, trade execution, merchandising, and brand development
+- Sales analytics, category performance monitoring, and regional growth
+
+## Market Role
+
+Galkynys LLC helps suppliers move from market interest to practical local execution. The company combines local market knowledge with operational coordination so partner brands can build a stable commercial presence in Turkmenistan.
+
+## Partnership Focus
+
+- International suppliers and manufacturers
+- Brand owners and exporters
+- Wholesale and retail partners
+- Institutional and public-sector procurement customers
+- Trading partners looking for structured market entry

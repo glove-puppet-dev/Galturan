@@ -1,21 +1,22 @@
 baseURL: https://galkynys.com/
 locale: en-us
 defaultContentLanguage: en
-title: Galkynys
+title: Galkynys LLC
 theme: PaperMod
-copyright: Copyright 2026 Galkynys. All rights reserved.
+copyright: Copyright 2026 Galkynys LLC. All rights reserved.
 taxonomies:
   tag: tags
 
 params:
   env: production
-  description: Galkynys is a Turkmenistan-based import and distribution company helping international brands enter, distribute, and grow across the local market.
+  description: Galkynys LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
   keywords:
-    - Galkynys
+    - Galkynys LLC
     - Turkmenistan distribution
     - import company Turkmenistan
     - B2B distribution
     - market entry Turkmenistan
+    - public procurement Turkmenistan
   defaultTheme: light
   disableThemeToggle: true
   disableSpecial1stPost: true
@@ -28,7 +29,7 @@ params:
   ShowRssButtonInSectionTermList: false
   hideFooter: false
   label:
-    text: Galkynys
+    text: Galkynys LLC
   assets:
     theme_color: "#0f3d3e"
     msapplication_TileColor: "#0f3d3e"
@@ -38,23 +39,23 @@ menus:
     - name: Company
       pageRef: /company
       weight: 10
+    - name: Capabilities
+      pageRef: /capabilities
+      weight: 20
     - name: Categories
       pageRef: /categories
-      weight: 20
-    - name: Brands
-      pageRef: /brands
       weight: 30
     - name: Distribution
       pageRef: /distribution
       weight: 40
-    - name: For Suppliers
+    - name: Suppliers
       pageRef: /for-suppliers
       weight: 50
+    - name: Procurement
+      pageRef: /procurement
+      weight: 60
     - name: Logistics
       pageRef: /logistics
-      weight: 60
-    - name: News
-      pageRef: /news
       weight: 70
     - name: Contacts
       pageRef: /contacts

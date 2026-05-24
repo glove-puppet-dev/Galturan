@@ -1,16 +1,23 @@
 ---
 title: Logistics
-description: Galkynys coordinates import operations, warehousing, customs support, and delivery for product distribution in Turkmenistan.
+description: Galkynys LLC coordinates sourcing, freight, import documentation, customs support, certification, warehousing, inventory planning, and delivery for distribution in Turkmenistan.
+kicker: Logistics
 ---
 
-Reliable logistics are essential for successful distribution. Galkynys supports the operational side of market entry through import coordination, storage, customs-related processes, and local delivery planning.
+Reliable logistics are essential for successful market entry and distribution. Galkynys LLC supports the operational path from global production centers to legal and efficient market availability in Turkmenistan.
 
-## Capabilities
+## Global Sourcing and Logistics
 
-- Import operations coordination
-- Warehousing and inventory flow
-- Customs support and documentation coordination
-- Delivery and fulfillment planning
-- Operational communication with partners
+Galkynys LLC coordinates sourcing and logistics across international supply routes through structured freight, delivery, and supply processes.
 
-Our logistics work is designed to reduce complexity for suppliers and support stable product availability for local channels.
+## Customs, Import, and Compliance
+
+The company supports import documentation, customs procedures, conformity requirements, labeling, packaging adaptation, and market-readiness coordination.
+
+## Local Certification and Regulation
+
+Galkynys LLC coordinates product requirements, legal obligations, conformity assessment, certification, and regulatory documentation for applicable categories.
+
+## Warehousing and Inventory Planning
+
+The logistics process includes storage, stock control, replenishment coordination, product availability management, and reliable supply for retail and wholesale channels.
