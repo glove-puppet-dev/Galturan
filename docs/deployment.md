@@ -37,7 +37,7 @@ git submodule update --init --recursive
 Перед публикацией запустить:
 
 ```sh
-mise exec -- hugo --minify --noBuildLock --destination /private/tmp/galkynysh-hugo-build --cleanDestinationDir
+mise exec -- hugo --minify --noBuildLock --destination /private/tmp/galturan-hugo-build --cleanDestinationDir
 ```
 
 Сборка должна завершиться без Hugo deprecation warnings и сгенерировать 22 страницы.
@@ -50,4 +50,4 @@ mise exec -- hugo --minify --noBuildLock --destination /private/tmp/galkynysh-hu
 - Сгенерированная папка `public/` не закоммичена.
 - Весь публичный текст сайта на английском языке.
 - Вся проектная документация на русском языке.
-- Продакшен `baseURL`: `https://galkynysh.com/`.
+- Продакшен `baseURL`: `https://galturan.com/`.

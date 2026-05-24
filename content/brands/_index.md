@@ -1,10 +1,10 @@
 ---
 title: Brands
-description: Galkynysh LLC helps international brands launch, distribute, and grow in Turkmenistan through import support, trade marketing, and local sales execution.
+description: Galturan LLC helps international brands launch, distribute, and grow in Turkmenistan through import support, trade marketing, and local sales execution.
 kicker: Brands
 ---
 
-Galkynysh LLC helps international brands build a structured presence in Turkmenistan through import support, distribution planning, retail access, trade marketing, and long-term commercial development.
+Galturan LLC helps international brands build a structured presence in Turkmenistan through import support, distribution planning, retail access, trade marketing, and long-term commercial development.
 
 ## Brand Partnership Areas
 
@@ -16,4 +16,4 @@ Galkynysh LLC helps international brands build a structured presence in Turkmeni
 - Merchandising coordination and product education
 - Commercial analytics and category performance monitoring
 
-For manufacturers and brand owners, Galkynysh LLC acts as a local partner that understands both international supplier expectations and the practical requirements of operating in Turkmenistan.
+For manufacturers and brand owners, Galturan LLC acts as a local partner that understands both international supplier expectations and the practical requirements of operating in Turkmenistan.

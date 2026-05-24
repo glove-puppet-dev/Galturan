@@ -1,15 +1,15 @@
 {{- define "main" }}
-<section class="gk-page">
-    <header class="gk-page-hero">
+<section class="gt-page">
+    <header class="gt-page-hero">
         {{- partial "breadcrumbs.html" . }}
         <p class="section-kicker">Index</p>
         <h1>{{ .Title }}</h1>
         {{- with .Description }}
-        <p class="gk-page-lead">{{ . | markdownify }}</p>
+        <p class="gt-page-lead">{{ . | markdownify }}</p>
         {{- end }}
     </header>
 
-    <ul class="gk-terms">
+    <ul class="gt-terms">
         {{- $type := .Type }}
         {{- range .Data.Terms.Alphabetical }}
         {{- $name := .Name }}

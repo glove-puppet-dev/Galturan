@@ -1,16 +1,16 @@
 {{- define "main" }}
-<article class="gk-page gk-single">
-    <header class="gk-page-hero">
+<article class="gt-page gt-single">
+    <header class="gt-page-hero">
         {{- partial "breadcrumbs.html" . }}
-        <p class="section-kicker">{{ .Params.kicker | default (.Section | default "Galkynysh" | humanize) }}</p>
+        <p class="section-kicker">{{ .Params.kicker | default (.Section | default "Galturan" | humanize) }}</p>
         <h1>{{ .Title }}</h1>
         {{- with .Description }}
-        <p class="gk-page-lead">{{ . | markdownify }}</p>
+        <p class="gt-page-lead">{{ . | markdownify }}</p>
         {{- end }}
     </header>
 
     {{- with .Content }}
-    <div class="gk-content post-content">
+    <div class="gt-content post-content">
         {{ . }}
     </div>
     {{- end }}
