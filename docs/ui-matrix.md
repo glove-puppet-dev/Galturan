@@ -10,7 +10,7 @@
 - mise
 - англоязычный Markdown-контент в `content/`
 - проектные overrides в `layouts/`
-- корпоративные стили в `assets/css/extended/galturan.css`
+- корпоративные стили в `assets/css/extended/custom.css`
 
 В проекте сейчас нет Node.js, Tailwind CSS, PostgreSQL, Netlify Functions и `data/entities.yaml`. Эти элементы можно добавлять позже, но они не считаются частью текущей реализации.
 
@@ -88,7 +88,7 @@
 | Surface | Светлый теплый фон |
 | Border | Светлая холодная линия |
 
-Все токены находятся в `assets/css/extended/galturan.css`.
+Все токены находятся в `assets/css/extended/custom.css`.
 
 ## 6. Responsive-матрица
 

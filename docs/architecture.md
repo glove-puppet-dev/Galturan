@@ -48,7 +48,7 @@ layouts/partials/header.html
 layouts/partials/head.html
 layouts/partials/footer.html
 layouts/partials/opengraph.html
-assets/css/extended/galturan.css
+assets/css/extended/custom.css
 ```
 
 ## Текущие переопределения
@@ -67,7 +67,7 @@ assets/css/extended/galturan.css
 | `layouts/partials/head.html` | Переопределяет head-шаблон PaperMod, чтобы подключать проектный `opengraph.html` напрямую. |
 | `layouts/partials/footer.html` | Заменяет стандартный footer PaperMod на footer компании. |
 | `layouts/partials/opengraph.html` | Основной partial метаданных Open Graph с актуальными языковыми полями Hugo 0.160.1. |
-| `assets/css/extended/galturan.css` | Корпоративный визуальный слой, подключаемый через extended CSS hook темы PaperMod. |
+| `assets/css/extended/custom.css` | Корпоративный визуальный слой, подключаемый через extended CSS hook темы PaperMod. |
 
 ## Сгенерированные файлы
 

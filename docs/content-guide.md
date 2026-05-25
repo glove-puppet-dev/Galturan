@@ -84,4 +84,4 @@ menus:
   -> контактный призыв к действию
 ```
 
-Визуальные стили главной находятся в `assets/css/extended/galturan.css`.
+Визуальные стили главной находятся в `assets/css/extended/custom.css`.
