@@ -1,11 +1,11 @@
 # Деплой
 
-Проект собирается как статический сайт Hugo.
+Проект собирается как статический сайт Hugo. Перед Hugo-сборкой Tailwind CSS 4.3 генерирует `assets/css/extended/custom.css`.
 
 ## Команда сборки
 
 ```sh
-mise exec -- hugo --minify
+npm run build
 ```
 
 ## Директория результата
@@ -20,7 +20,7 @@ public/
 
 ## Обязательная версия
 
-Использовать Hugo 0.160.1, закрепленный в `mise.toml`.
+Использовать Hugo 0.160.1, закрепленный в `mise.toml`, и Tailwind CSS 4.3, закрепленный в `package-lock.json`.
 
 Если платформа деплоя не использует `mise`, нужно явно указать версию Hugo `0.160.1` в настройках платформы.
 
@@ -37,15 +37,17 @@ git submodule update --init --recursive
 Перед публикацией запустить:
 
 ```sh
+npm run tw:build
 mise exec -- hugo --minify --noBuildLock --destination /private/tmp/galturan-hugo-build --cleanDestinationDir
 ```
 
-Сборка должна завершиться без Hugo deprecation warnings и сгенерировать 22 страницы.
+Сборка должна завершиться без Hugo deprecation warnings и сгенерировать 26 страниц.
 
 ## Чеклист деплоя
 
 - `hugo.yaml` является единственным конфигурационным файлом Hugo.
 - Версия Hugo: 0.160.1.
+- Tailwind CSS собирается через `npm run tw:build`.
 - Подмодуль темы доступен в `themes/PaperMod/`.
 - Сгенерированная папка `public/` не закоммичена.
 - Весь публичный текст сайта на английском языке.

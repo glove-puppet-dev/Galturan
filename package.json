@@ -1,0 +1,32 @@
+{
+  "name": "galturan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Корпоративный сайт Galturan LLC на Hugo для компании из Туркменистана, которая работает как full-cycle market-entry platform: импорт, логистика, compliance, дистрибуция, retail access, brand development и B2B/B2G procurement.",
+  "scripts": {
+    "tw:build": "tailwindcss -i ./assets/tailwind/input.css -o ./assets/css/extended/custom.css",
+    "tw:watch": "tailwindcss -i ./assets/tailwind/input.css -o ./assets/css/extended/custom.css --watch",
+    "hugo:build": "hugo --gc --minify --cacheDir \"$PWD/resources/_gen\"",
+    "hugo:preview": "hugo --gc --minify --buildFuture --cacheDir \"$PWD/resources/_gen\"",
+    "hugo:build:local": "mise exec -- hugo --gc --minify --cacheDir \"$PWD/resources/_gen\"",
+    "build": "npm run tw:build && npm run hugo:build",
+    "build:local": "npm run tw:build && npm run hugo:build:local",
+    "build:preview": "npm run tw:build && npm run hugo:preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glove-puppet-dev/Galturan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/glove-puppet-dev/Galturan/issues"
+  },
+  "homepage": "https://github.com/glove-puppet-dev/Galturan#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.0",
+    "tailwindcss": "4.3.0"
+  }
+}

@@ -1,12 +1,12 @@
 # Архитектура
 
-Проект является статическим сайтом на Hugo 0.160.1 и использует PaperMod как подмодуль Git. Весь проектный код находится в корневых папках Hugo и переопределяет поведение темы только там, где это необходимо.
+Проект является статическим сайтом на Hugo 0.160.1, использует PaperMod как подмодуль Git и Tailwind CSS 4.3 через CLI. Весь проектный код находится в корневых папках Hugo и переопределяет поведение темы только там, где это необходимо.
 
 ## Верхнеуровневая структура
 
 ```text
 archetypes/          Шаблоны контента для `hugo new content`
-assets/              Ресурсы Hugo Pipes и расширенные стили PaperMod
+assets/              Ресурсы Hugo Pipes, Tailwind source и extended CSS PaperMod
 content/             Markdown-контент и страницы разделов
 data/                Файлы данных, сейчас папка пустая
 docs/                Документация проекта
@@ -16,6 +16,7 @@ static/              Файлы, которые копируются в опуб
 themes/PaperMod/     Тема PaperMod как подмодуль Git
 hugo.yaml            Конфигурация Hugo
 mise.toml            Закрепленная версия Hugo
+package.json         Tailwind CLI и build-скрипты
 ```
 
 ## Конфигурация
@@ -39,17 +40,20 @@ PaperMod находится в `themes/PaperMod/` как подмодуль Git.
 layouts/index.html
 layouts/baseof.html
 layouts/404.html
-layouts/_default/list.html
-layouts/_default/rss.xml
-layouts/_default/single.html
-layouts/_default/terms.html
+layouts/list.html
+layouts/rss.xml
+layouts/single.html
+layouts/terms.html
 layouts/partials/breadcrumbs.html
 layouts/partials/header.html
 layouts/partials/head.html
 layouts/partials/footer.html
 layouts/partials/opengraph.html
+assets/tailwind/input.css
 assets/css/extended/custom.css
 ```
+
+`assets/tailwind/input.css` является редактируемым source-файлом Tailwind. `assets/css/extended/custom.css` генерируется командой `npm run tw:build` и подключается PaperMod через стандартный extended CSS hook.
 
 ## Текущие переопределения
 
@@ -58,16 +62,17 @@ assets/css/extended/custom.css
 | `layouts/404.html` | Кастомная страница ошибки в корпоративном стиле. |
 | `layouts/index.html` | Кастомная корпоративная главная страница вместо стандартной списочной главной PaperMod. |
 | `layouts/baseof.html` | Базовый шаблон проекта: добавляет body-класс `site-home` и использует актуальные поля языка Hugo 0.160.1. |
-| `layouts/_default/list.html` | Корпоративный шаблон для разделов и списковых страниц без блоговой ленты PaperMod. |
-| `layouts/_default/rss.xml` | Заменяет устаревшее использование языковых полей PaperMod в RSS. |
-| `layouts/_default/single.html` | Корпоративный шаблон одиночной страницы без блоговых метаданных. |
-| `layouts/_default/terms.html` | Шаблон индексов таксономий в стиле проекта. |
+| `layouts/list.html` | Корпоративный шаблон для разделов и списковых страниц без блоговой ленты PaperMod. |
+| `layouts/rss.xml` | Заменяет устаревшее использование языковых полей PaperMod в RSS. |
+| `layouts/single.html` | Корпоративный шаблон одиночной страницы без блоговых метаданных. |
+| `layouts/terms.html` | Шаблон индексов таксономий в стиле проекта. |
 | `layouts/partials/breadcrumbs.html` | Упрощенные хлебные крошки проекта. |
 | `layouts/partials/header.html` | Корпоративная шапка проекта с меню из `hugo.yaml`. |
 | `layouts/partials/head.html` | Переопределяет head-шаблон PaperMod, чтобы подключать проектный `opengraph.html` напрямую. |
 | `layouts/partials/footer.html` | Заменяет стандартный footer PaperMod на footer компании. |
 | `layouts/partials/opengraph.html` | Основной partial метаданных Open Graph с актуальными языковыми полями Hugo 0.160.1. |
-| `assets/css/extended/custom.css` | Корпоративный визуальный слой, подключаемый через extended CSS hook темы PaperMod. |
+| `assets/tailwind/input.css` | Редактируемый Tailwind source с design tokens, `@source` и проектными стилями. |
+| `assets/css/extended/custom.css` | Сгенерированный CSS, подключаемый через extended CSS hook темы PaperMod. |
 
 ## Сгенерированные файлы
 

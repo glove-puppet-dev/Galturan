@@ -6,13 +6,15 @@
 
 - Hugo 0.160.1
 - PaperMod как подмодуль Git
+- Tailwind CSS 4.3 через CLI
 - Netlify
 - mise
 - англоязычный Markdown-контент в `content/`
 - проектные overrides в `layouts/`
-- корпоративные стили в `assets/css/extended/custom.css`
+- редактируемые стили в `assets/tailwind/input.css`
+- сгенерированный PaperMod extended CSS в `assets/css/extended/custom.css`
 
-В проекте сейчас нет Node.js, Tailwind CSS, PostgreSQL, Netlify Functions и `data/entities.yaml`. Эти элементы можно добавлять позже, но они не считаются частью текущей реализации.
+В проекте сейчас нет PostgreSQL, Netlify Functions и `data/entities.yaml`. Эти элементы можно добавлять позже, но они не считаются частью текущей реализации.
 
 ## 1. Базовые UI-принципы
 
@@ -23,7 +25,7 @@
 | Single-language English | Публичный сайт ведется только на английском языке. | `content/`, `layouts/`, `hugo.yaml` |
 | PaperMod как основа | Тема не редактируется напрямую. | `themes/PaperMod/`, overrides в `layouts/` |
 | Corporate placeholder | Заглушка должна выглядеть как серьезный B2B-сайт, а не как пустой шаблон. | Главная, внутренние страницы, стили |
-| Простая поддержка | Все правки должны быть понятны без отдельного frontend toolchain. | Hugo templates, CSS, Markdown |
+| Простая поддержка | Страница остается static-first, frontend toolchain ограничен Tailwind CLI. | Hugo templates, Tailwind source, Markdown |
 
 ## 2. Информационная архитектура
 
@@ -48,9 +50,9 @@
 | Базовый HTML | `layouts/baseof.html` | Реализован |
 | Head/meta | `layouts/partials/head.html` | Реализован |
 | Главная | `layouts/index.html` | Реализован |
-| Разделы | `layouts/_default/list.html` | Реализован |
-| Обычные страницы | `layouts/_default/single.html` | Реализован |
-| RSS | `layouts/_default/rss.xml` | Реализован |
+| Разделы | `layouts/list.html` | Реализован |
+| Обычные страницы | `layouts/single.html` | Реализован |
+| RSS | `layouts/rss.xml` | Реализован |
 | 404 | `layouts/404.html` | Реализован |
 | Header | `layouts/partials/header.html` | Реализован |
 | Footer | `layouts/partials/footer.html` | Реализован |
@@ -70,7 +72,7 @@
 | Category cards | Быстрое сканирование направлений. | `layouts/index.html`, CSS |
 | Route steps | Восемь шагов route-to-market. | `layouts/index.html`, CSS |
 | Capability groups | Четыре группы возможностей. | `layouts/index.html`, Markdown и CSS |
-| Page hero | Заголовок и описание внутренних страниц. | `layouts/_default/list.html`, `layouts/_default/single.html` |
+| Page hero | Заголовок и описание внутренних страниц. | `layouts/list.html`, `layouts/single.html` |
 | CTA buttons | Переход к контактам и поставщикам. | CSS-классы `.button`, `.button-primary`, `.button-secondary` |
 
 ## 5. Визуальные токены
@@ -88,7 +90,7 @@
 | Surface | Светлый теплый фон |
 | Border | Светлая холодная линия |
 
-Все токены находятся в `assets/css/extended/custom.css`.
+Все токены редактируются в `assets/tailwind/input.css`. Файл `assets/css/extended/custom.css` является сгенерированным output.
 
 ## 6. Responsive-матрица
 
@@ -118,9 +120,10 @@
 
 | Проверка | Команда/инструмент | Критерий |
 | --- | --- | --- |
-| Hugo build | `mise exec -- hugo --minify` | Сборка без ошибок и deprecated warnings. |
+| Full build | `npm run build:local` | Tailwind и Hugo собираются без ошибок. |
 | Версия Hugo | `mise exec -- hugo version` | Hugo 0.160.1. |
-| Чистая сборка | `mise exec -- hugo --minify --noBuildLock --destination /private/tmp/galturan-hugo-build --cleanDestinationDir` | Output собирается вне репозитория. |
+| Tailwind build | `npm run tw:build` | `assets/css/extended/custom.css` обновляется из `assets/tailwind/input.css`. |
+| Чистая сборка | `npm run tw:build` + `mise exec -- hugo --minify --noBuildLock --destination /private/tmp/galturan-hugo-build --cleanDestinationDir` | Output собирается вне репозитория. |
 | Ссылки меню | Проверка HTML output или ручной просмотр. | Все пункты меню ведут на 200-страницы. |
 | Mobile | 360, 390, 768 viewport. | Нет горизонтального overflow и наложений текста. |
 | Theme edits | `git status themes/PaperMod` | Подмодуль не содержит проектных правок. |
@@ -129,7 +132,7 @@
 
 Заглушка считается готовой, когда:
 
-- сборка Hugo 0.160.1 проходит без warnings;
+- сборка Tailwind и Hugo 0.160.1 проходит без ошибок;
 - `/categories/` является бизнес-разделом, а taxonomy `categories` отключена;
 - все пункты меню открываются;
 - главная объясняет full-cycle B2B/B2G market-entry позиционирование;

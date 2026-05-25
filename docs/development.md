@@ -4,6 +4,7 @@
 
 - `mise`
 - Git с поддержкой подмодулей
+- Node.js и npm
 - Hugo, закрепленный через `mise.toml`
 
 Проект закреплен на Hugo 0.160.1:
@@ -24,6 +25,7 @@ hugo v0.160.1
 
 ```sh
 mise install
+npm install
 ```
 
 Инициализировать тему PaperMod:
@@ -46,17 +48,26 @@ mise exec -- hugo server --bind 127.0.0.1 --port 1313 --disableFastRender --rend
 http://localhost:1313/
 ```
 
+Если меняются Tailwind-классы, design tokens или проектные стили, параллельно запустить:
+
+```sh
+npm run tw:watch
+```
+
+Редактируемый CSS source находится в `assets/tailwind/input.css`. Файл `assets/css/extended/custom.css` генерируется Tailwind CLI и не редактируется вручную.
+
 ## Продакшен-сборка
 
 Собрать сайт с минификацией:
 
 ```sh
-mise exec -- hugo --minify
+npm run build:local
 ```
 
 Проверочная чистая сборка вне репозитория:
 
 ```sh
+npm run tw:build
 mise exec -- hugo --minify --noBuildLock --destination /private/tmp/galturan-hugo-build --cleanDestinationDir
 ```
 
@@ -83,6 +94,7 @@ git status --short --ignored
 ## Рабочие правила
 
 - Не редактировать `themes/PaperMod/` напрямую.
+- Не редактировать `assets/css/extended/custom.css` вручную; менять `assets/tailwind/input.css`.
 - Проектные изменения держать в `layouts/`, `assets/`, `content/`, `static/` или `hugo.yaml`.
 - Основные шаблоны проекта должны переопределяться в корневом `layouts/`, а не внутри темы.
 - Публичный контент сайта и UI-тексты держать на английском языке.

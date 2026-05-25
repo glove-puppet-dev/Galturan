@@ -84,4 +84,4 @@ menus:
   -> контактный призыв к действию
 ```
 
-Визуальные стили главной находятся в `assets/css/extended/custom.css`.
+Визуальные стили главной редактируются в `assets/tailwind/input.css`. Файл `assets/css/extended/custom.css` генерируется Tailwind CLI.
