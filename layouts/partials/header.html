@@ -2,10 +2,9 @@
     <nav class="nav" aria-label="Main navigation">
         <div class="logo">
             {{- $labelText := site.Params.label.text | default site.Title }}
-            {{- $labelIcon := site.Params.label.icon | default "brand/galturan-mark.svg" }}
+            {{- $labelIcon := site.Params.label.icon | default "images/logo.png" }}
             <a href="{{ "" | relLangURL }}" accesskey="h" title="{{ $labelText }} (Alt + H)">
-                <img class="brand-mark" src="{{ $labelIcon | relURL }}" width="40" height="40" alt="" decoding="async">
-                <span>{{- $labelText -}}</span>
+                <img class="brand-logo" src="{{ $labelIcon | relURL }}" width="150" height="57" alt="{{ $labelText }}" decoding="async">
             </a>
         </div>
 

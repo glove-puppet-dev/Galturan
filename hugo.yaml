@@ -30,7 +30,7 @@ params:
   hideFooter: false
   label:
     text: Galturan LLC
-    icon: brand/galturan-mark.svg?v=source-20260526
+    icon: images/logo.png
   assets:
     favicon: favicon.ico
     apple_touch_icon: apple-touch-icon.png
