@@ -9,6 +9,7 @@ taxonomies:
 
 params:
   env: production
+  robotsNoIndex: true
   description: Galturan LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
   keywords:
     - Galturan LLC
@@ -30,13 +31,16 @@ params:
   hideFooter: false
   label:
     text: Galturan LLC
-    icon: images/logo.png
+    icon: images/logo-header.png
   assets:
     favicon: favicon.ico
     apple_touch_icon: apple-touch-icon.png
     favicon16x16: favicon-16x16.png
     favicon32x32: favicon-32x32.png
+    logo: images/logo.png
+    social_image: images/social-preview.png
     theme_color: "#0f3d3e"
+    background_color: "#fbfcf8"
     msapplication_TileColor: "#0f3d3e"
 
 menus:

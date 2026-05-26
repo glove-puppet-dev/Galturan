@@ -1,0 +1,69 @@
+{{- define "main" }}
+<section class="gt-page gt-contact-page">
+    <header class="gt-page-hero">
+        {{- partial "breadcrumbs.html" . }}
+        <p class="section-kicker">{{ .Params.kicker | default "Contacts" }}</p>
+        <h1>{{ .Title }}</h1>
+        {{- with .Description }}
+        <p class="gt-page-lead">{{ . | markdownify }}</p>
+        {{- end }}
+    </header>
+
+    <div class="contact-layout">
+        <div class="gt-content post-content">
+            {{ .Content }}
+            <div class="contact-details" aria-label="Contact channels">
+                <div>
+                    <span>Primary channel</span>
+                    <strong>Partnership request form</strong>
+                </div>
+                <div>
+                    <span>Website</span>
+                    <strong>galturan.com</strong>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact-form" name="partnership-request" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="partnership-request">
+            <p class="hidden-field">
+                <label>Do not fill this field <input name="bot-field"></label>
+            </p>
+
+            <label>
+                Full name
+                <input type="text" name="name" autocomplete="name" required>
+            </label>
+
+            <label>
+                Company
+                <input type="text" name="company" autocomplete="organization" required>
+            </label>
+
+            <label>
+                Work email
+                <input type="email" name="email" autocomplete="email" required>
+            </label>
+
+            <label>
+                Cooperation area
+                <select name="cooperation_area" required>
+                    <option value="">Select an area</option>
+                    <option>Supplier or brand partnership</option>
+                    <option>Import, logistics, and certification</option>
+                    <option>Retail or wholesale distribution</option>
+                    <option>Public-sector procurement</option>
+                    <option>General business inquiry</option>
+                </select>
+            </label>
+
+            <label>
+                Message
+                <textarea name="message" rows="6" required></textarea>
+            </label>
+
+            <button class="button button-primary" type="submit">Send Partnership Request</button>
+        </form>
+    </div>
+</section>
+{{- end }}

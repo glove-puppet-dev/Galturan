@@ -174,6 +174,11 @@
   .grow {
     flex-grow: 1;
   }
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
 :root {
   --main-width: 1060px;
@@ -190,6 +195,7 @@
 body {
   color: var(--gt-ink);
   background: #fbfcf8;
+  overflow-x: hidden;
 }
 a {
   box-shadow: none;
@@ -200,7 +206,9 @@ a {
   backdrop-filter: blur(14px);
 }
 .nav {
+  position: relative;
   max-width: 1180px;
+  gap: 18px;
 }
 .logo a {
   display: inline-flex;
@@ -248,6 +256,29 @@ a {
 #menu li:last-child a:hover {
   background: var(--gt-accent-dark);
   color: #ffffff;
+}
+.menu-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--gt-line);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--gt-ink);
+  cursor: pointer;
+}
+.menu-toggle span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+}
+.menu-toggle span + span {
+  margin-top: 4px;
 }
 .site-home .main {
   max-width: none;
@@ -675,6 +706,78 @@ a {
 .gt-content {
   max-width: 760px;
 }
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.75fr);
+  gap: clamp(28px, 5vw, 64px);
+  align-items: start;
+}
+.contact-details {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 28px;
+}
+.contact-details div, .contact-form {
+  border: 1px solid var(--gt-line);
+  border-radius: 8px;
+  background: #ffffff;
+}
+.contact-details div {
+  display: grid;
+  gap: 6px;
+  padding: 16px;
+}
+.contact-details span {
+  color: var(--gt-gold);
+  font-size: 12px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+.contact-details strong {
+  color: var(--gt-ink);
+  font-size: 15px;
+  line-height: 1.35;
+}
+.contact-form {
+  display: grid;
+  gap: 16px;
+  padding: 22px;
+  box-shadow: 0 18px 42px rgba(16, 37, 38, 0.08);
+}
+.contact-form label {
+  display: grid;
+  gap: 7px;
+  color: var(--gt-ink);
+  font-size: 14px;
+  font-weight: 800;
+}
+.contact-form input, .contact-form select, .contact-form textarea {
+  width: 100%;
+  border: 1px solid var(--gt-line);
+  border-radius: 6px;
+  padding: 12px 13px;
+  background: #fbfcf8;
+  color: var(--gt-ink);
+  font: inherit;
+  font-weight: 500;
+}
+.contact-form textarea {
+  resize: vertical;
+}
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus {
+  border-color: var(--gt-accent);
+  outline: 2px solid rgba(15, 111, 100, 0.16);
+  outline-offset: 0;
+}
+.contact-form .button {
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+}
+.hidden-field {
+  display: none;
+}
 .gt-child-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -772,14 +875,42 @@ a {
 }
 @media (max-width: 1080px) {
   .nav {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     height: auto;
     padding: 12px 24px;
   }
+  .menu-toggle {
+    display: inline-grid;
+  }
   #menu {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 24px;
+    left: 24px;
+    z-index: 20;
+    display: none;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+    width: auto;
+    margin: 0;
+    border: 1px solid var(--gt-line);
+    border-radius: 8px;
+    padding: 12px;
+    background: rgba(251, 252, 248, 0.98);
+    box-shadow: 0 18px 44px rgba(16, 37, 38, 0.14);
+    backdrop-filter: blur(14px);
+  }
+  .nav.is-menu-open #menu {
+    display: grid;
+  }
+  #menu li, #menu a {
     width: 100%;
-    margin-top: 8px;
-    justify-content: flex-start;
+  }
+  #menu a {
+    justify-content: center;
+  }
+  #menu li:last-child a {
+    margin-inline-start: 0;
   }
   .six-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -799,7 +930,7 @@ a {
   .home-hero::after, .route {
     opacity: 0.34;
   }
-  .hero-metrics, .split-section, .logistics-layout, .contact-cta, .gt-child-grid, .story-grid, .capability-groups {
+  .hero-metrics, .split-section, .logistics-layout, .contact-cta, .contact-layout, .gt-child-grid, .story-grid, .capability-groups {
     grid-template-columns: 1fr;
   }
   .hero-metrics {
@@ -824,6 +955,14 @@ a {
   }
 }
 @media (max-width: 520px) {
+  .brand-logo {
+    width: min(138px, 54vw);
+  }
+  #menu {
+    grid-template-columns: 1fr;
+    right: 20px;
+    left: 20px;
+  }
   #menu a {
     padding-inline: 8px;
     font-size: 13px;
@@ -844,6 +983,9 @@ a {
     width: 100%;
   }
   .hero-metrics {
+    grid-template-columns: 1fr;
+  }
+  .contact-details {
     grid-template-columns: 1fr;
   }
 }

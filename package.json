@@ -6,9 +6,9 @@
   "scripts": {
     "tw:build": "tailwindcss -i ./assets/tailwind/input.css -o ./assets/css/extended/custom.css",
     "tw:watch": "tailwindcss -i ./assets/tailwind/input.css -o ./assets/css/extended/custom.css --watch",
-    "hugo:build": "hugo --gc --minify --cacheDir \"$PWD/resources/_gen\"",
-    "hugo:preview": "hugo --gc --minify --buildFuture --cacheDir \"$PWD/resources/_gen\"",
-    "hugo:build:local": "mise exec -- hugo --gc --minify --cacheDir \"$PWD/resources/_gen\"",
+    "hugo:build": "hugo --cleanDestinationDir --gc --minify --noBuildLock --cacheDir \"$PWD/resources/_gen\"",
+    "hugo:preview": "hugo --cleanDestinationDir --gc --minify --buildFuture --noBuildLock --cacheDir \"$PWD/resources/_gen\"",
+    "hugo:build:local": "mise exec -- hugo --cleanDestinationDir --gc --minify --noBuildLock --cacheDir \"$PWD/resources/_gen\"",
     "build": "npm run tw:build && npm run hugo:build",
     "build:local": "npm run tw:build && npm run hugo:build:local",
     "build:preview": "npm run tw:build && npm run hugo:preview"

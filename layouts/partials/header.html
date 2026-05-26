@@ -9,6 +9,11 @@
         </div>
 
         {{- with site.Menus.main }}
+        <button class="menu-toggle" type="button" aria-controls="menu" aria-expanded="false" aria-label="Open navigation">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </button>
         <ul id="menu">
             {{- $currentPage := $ }}
             {{- range . }}

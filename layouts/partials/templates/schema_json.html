@@ -1,0 +1,37 @@
+{{- $logo := (site.Params.assets.logo | default (site.Params.label.icon | default "images/logo.png")) | absURL -}}
+{{- $socialImage := (site.Params.assets.social_image | default site.Params.assets.logo | default "images/social-preview.png") | absURL -}}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ site.Title | jsonify | safeJS }},
+  "url": {{ site.Home.Permalink | jsonify | safeJS }},
+  "description": {{ site.Params.description | plainify | truncate 180 | jsonify | safeJS }},
+  "logo": {
+    "@type": "ImageObject",
+    "url": {{ $logo | jsonify | safeJS }}
+  },
+  "image": {{ $socialImage | jsonify | safeJS }},
+  "areaServed": "Turkmenistan"
+}
+</script>
+{{- else if (or .IsPage .IsSection) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ .Title | plainify | jsonify | safeJS }},
+  "url": {{ .Permalink | jsonify | safeJS }},
+  "description": {{ with .Description }}{{ . | plainify | jsonify | safeJS }}{{ else }}{{ .Summary | plainify | jsonify | safeJS }}{{ end }},
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.Title | jsonify | safeJS }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ $logo | jsonify | safeJS }}
+    }
+  }
+}
+</script>
+{{- end }}

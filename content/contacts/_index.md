@@ -8,7 +8,7 @@ Contact Galturan LLC to discuss partnership, product distribution, supplier coop
 
 ## Partnership Requests
 
-For international suppliers and brand owners, please share your company details, product category, target cooperation model, available documentation, and current market requirements.
+International suppliers and brand owners can submit a partnership request with company details, product category, target cooperation model, available documentation, and current market requirements.
 
 ## Cooperation Areas
 

@@ -35,6 +35,7 @@
   <meta property="og:type" content="website">
 {{- end }}
 
+{{- $socialImage := site.Params.assets.social_image | default "images/social-preview.png" }}
 {{- if .Params.cover.image -}}
   {{- if (ne .Params.cover.relative true) }}
     <meta property="og:image" content="{{ .Params.cover.image | absURL }}">
@@ -46,6 +47,11 @@
     {{- range . | first 6 }}
       <meta property="og:image" content="{{ .Permalink }}">
     {{- end }}
+  {{- else }}
+    <meta property="og:image" content="{{ $socialImage | absURL }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ site.Title }}">
   {{- end }}
 {{- end }}
 

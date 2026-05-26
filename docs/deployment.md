@@ -20,9 +20,9 @@ public/
 
 ## Обязательная версия
 
-Использовать Hugo 0.160.1, закрепленный в `mise.toml`, и Tailwind CSS 4.3, закрепленный в `package-lock.json`.
+Использовать Hugo 0.160.1 и Node.js 24 LTS, закрепленные в `mise.toml`, а также Tailwind CSS 4.3, закрепленный в `package-lock.json`.
 
-Если платформа деплоя не использует `mise`, нужно явно указать версию Hugo `0.160.1` в настройках платформы.
+Если платформа деплоя не использует `mise`, нужно явно указать Hugo `0.160.1` и Node.js `24` в настройках платформы.
 
 ## Подмодуль темы
 
@@ -48,6 +48,7 @@ mise exec -- hugo --minify --noBuildLock --destination /private/tmp/galturan-hug
 - `hugo.yaml` является единственным конфигурационным файлом Hugo.
 - Версия Hugo: 0.160.1.
 - Tailwind CSS собирается через `npm run tw:build`.
+- Hugo запускается с `--cleanDestinationDir` и `--noBuildLock`, чтобы удаленные static-файлы не оставались в `public/`, а локальный `.hugo_build.lock` не появлялся после сборки.
 - Подмодуль темы доступен в `themes/PaperMod/`.
 - Сгенерированная папка `public/` не закоммичена.
 - Весь публичный текст сайта на английском языке.

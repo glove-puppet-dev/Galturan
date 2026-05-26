@@ -1,7 +1,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-{{- if hugo.IsProduction | or (eq site.Params.env "production") | and (ne .Params.robotsNoIndex true) }}
+{{- $production := or hugo.IsProduction (eq site.Params.env "production") }}
+{{- $noindex := or (eq site.Params.robotsNoIndex true) (eq .Params.robotsNoIndex true) }}
+{{- if and $production (not $noindex) }}
 <meta name="robots" content="index, follow">
 {{- else }}
 <meta name="robots" content="noindex, nofollow">
@@ -43,8 +45,9 @@
 {{- $includes = $includes | append (" " | resources.FromString "assets/css/includes-blank.css")}}
 
 {{- if not (eq site.Params.assets.disableScrollBarStyle true) }}
-    {{- $ScrollStyle := (resources.Get "css/includes/scroll-bar.css") }}
-    {{- $includes = (append $ScrollStyle $includes) }}
+    {{- with (resources.Get "css/includes/scroll-bar.css") }}
+        {{- $includes = (append . $includes) }}
+    {{- end }}
 {{- end }}
 
 {{- $includes_all := $includes | resources.Concat "assets/css/includes.css" }}
