@@ -1,4 +1,4 @@
 ---
 title: Galturan LLC
-description: Galturan LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
+description: Galturan LLC is a full-cycle market-entry, import, logistics, distribution, procurement, and brand-development partner with 25 years of operating experience in Turkmenistan.
 ---

@@ -10,9 +10,10 @@ taxonomies:
 params:
   env: production
   robotsNoIndex: true
-  description: Galturan LLC helps international suppliers enter Turkmenistan with import, logistics, distribution, compliance, retail access, and brand development.
+  description: Galturan LLC is a Turkmenistan market-entry, import, logistics, distribution, procurement, and brand-development partner with 25 years of operating experience in the local market.
   keywords:
     - Galturan LLC
+    - 25 years experience Turkmenistan
     - Turkmenistan distribution
     - import company Turkmenistan
     - B2B distribution
@@ -69,10 +70,6 @@ menus:
     - name: Contacts
       pageRef: /contacts
       weight: 80
-    - name: Become a Partner
-      title: Become a Partner
-      url: /contacts/
-      weight: 90
 
 markup:
   highlight:
