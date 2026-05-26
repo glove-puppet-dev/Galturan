@@ -32,8 +32,10 @@ params:
     text: Galturan LLC
     icon: brand/galturan-mark.svg?v=source-20260526
   assets:
-    favicon: favicon.svg
-    safari_pinned_tab: safari-pinned-tab.svg
+    favicon: favicon.ico
+    apple_touch_icon: apple-touch-icon.png
+    favicon16x16: favicon-16x16.png
+    favicon32x32: favicon-32x32.png
     theme_color: "#0f3d3e"
     msapplication_TileColor: "#0f3d3e"
 
