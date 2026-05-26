@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="fav-green" x1="18" y1="8" x2="49" y2="51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f9b5c"/>
+      <stop offset="0.5" stop-color="#0f6f64"/>
+      <stop offset="1" stop-color="#0d4844"/>
+    </linearGradient>
+    <linearGradient id="fav-gold" x1="21" y1="53" x2="51" y2="31" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c58b25"/>
+      <stop offset="0.48" stop-color="#f1cf63"/>
+      <stop offset="0.82" stop-color="#fff2a3"/>
+      <stop offset="1" stop-color="#d7a33b"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="13" fill="#f6f8f4"/>
+  <path d="M14.1 26.3C8.8 33.5 7.9 43.1 12 51.1C17.7 62.3 31.5 66.8 42.9 61.1C54.8 55 59.6 40.4 53.5 28.5" fill="none" stroke="#0d4844" stroke-width="5.8" stroke-linecap="round"/>
+  <path d="M19.2 22.1L32.9 8.2L47.4 22.1L40.5 29L36 24.5V37.6L29.2 40V24.4L24.9 28.8L19.2 22.1Z" fill="url(#fav-green)" stroke="#083b36" stroke-width="1"/>
+  <path d="M16.6 56.4C17.2 41.4 27.3 34.5 40.6 30.4C48.3 28.1 53.2 24.7 56.5 21.1C57 32.9 51.3 41.1 41.4 46.2C33.2 50.5 24.7 52.2 16.6 56.4Z" fill="#0f6f64" stroke="#073f38" stroke-width="1"/>
+  <path d="M18.8 56.2C22.4 44.6 29.7 40.4 38.8 36.4C46.3 33.1 52.1 29 56.4 22.1C56.9 32.6 53.2 43.1 43.5 49.6C36.1 54.6 26.8 56.6 18.8 56.2Z" fill="url(#fav-gold)" stroke="#996d1f" stroke-width="0.9"/>
+  <path d="M21.2 54.3C30.1 48.6 38.5 45.5 46 38.6" fill="none" stroke="#b97e21" stroke-width="0.9" stroke-linecap="round"/>
+</svg>

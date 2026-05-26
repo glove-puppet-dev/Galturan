@@ -30,7 +30,10 @@ params:
   hideFooter: false
   label:
     text: Galturan LLC
+    icon: brand/galturan-mark.svg?v=source-20260526
   assets:
+    favicon: favicon.svg
+    safari_pinned_tab: safari-pinned-tab.svg
     theme_color: "#0f3d3e"
     msapplication_TileColor: "#0f3d3e"
 
